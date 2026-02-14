@@ -1,0 +1,24 @@
+[
+  {
+    "ResultId": "ST-001",
+    "ScenarioId": "SC-IR",
+    "PortfolioId": "PORT-001",
+    "BaselineNAV": 10000000.0,
+    "StressedNAV": 9200000.0,
+    "ImpactPercent": -0.08,
+    "MaxDrawdown": -0.12,
+    "RecoveryDays": 120,
+    "AssetImpacts": [
+      {
+        "AssetId": "BND-01",
+        "AssetName": "Government Bond Fund",
+        "BaselineValue": 5000000.0,
+        "StressedValue": 4600000.0,
+        "ImpactPercent": -0.08,
+        "PrimaryRiskFactor": "Rate shock"
+      }
+    ],
+    "Recommendations": ["Increase liquidity buffer", "Reduce duration exposure"],
+    "ExecutedAt": "2026-01-25T00:00:00Z"
+  }
+]

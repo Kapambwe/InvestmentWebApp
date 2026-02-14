@@ -1,0 +1,13 @@
+{
+  "totalMarketCap": 15750000000,
+  "marketCapChange": 0.0235,
+  "activeInstruments": 847,
+  "tradingVolume": 125000000,
+  "volumeChange": 0.0412,
+  "smeIndexValue": 1247.85,
+  "smeIndexChange": 0.0189,
+  "etfCount": 24,
+  "bondCount": 156,
+  "equityCount": 312,
+  "lastUpdated": "2026-01-25T10:30:00Z"
+}

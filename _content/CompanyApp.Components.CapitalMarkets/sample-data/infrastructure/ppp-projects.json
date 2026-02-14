@@ -1,0 +1,21 @@
+[
+  {
+    "ProjectId": "PPP-001",
+    "ProjectName": "Lusaka East Road Upgrade",
+    "Sector": 0,
+    "Type": 2,
+    "Description": "Upgrade and expansion of 40km urban corridor.",
+    "Status": 2,
+    "Grantor": { "AuthorityId": "AUTH-01", "Name": "Ministry of Infrastructure", "ContactEmail": "infrastructure@gov.zm" },
+    "Concessionaire": { "PartnerId": "CON-01", "Name": "ZamBuild JV", "RegistrationNumber": "REG-12345" },
+    "Subcontractors": [
+      { "SubcontractorId": "SUB-01", "Name": "Lusaka Asphalt", "Role": "Paving" }
+    ],
+    "IndependentEngineer": { "EngineerId": "ENG-01", "Name": "KBL Consultants", "Firm": "KBL" },
+    "Operator": { "OperatorId": "OP-01", "Name": "Roads Authority" },
+    "Location": { "Province": "Lusaka", "District": "Lusaka", "Coordinates": "-15.4067,28.2871" },
+    "Financials": { "TotalProjectCost": 320000000.0, "GovernmentContribution": 120000000.0, "PrivateContribution": 200000000.0, "Currency": "ZMW" },
+    "Milestones": [],
+    "RegistrationDate": "2025-10-15T00:00:00Z"
+  }
+]

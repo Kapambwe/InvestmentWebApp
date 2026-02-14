@@ -1,0 +1,60 @@
+[
+  {
+    "portfolioId": "PORT-001",
+    "name": "Conservative",
+    "riskLevel": "Low",
+    "description": "Low-risk portfolio focused on capital preservation through government bonds and money market instruments",
+    "allocation": [
+      { "assetClass": "Government Bonds", "percentage": 0.50 },
+      { "assetClass": "Money Market", "percentage": 0.30 },
+      { "assetClass": "Corporate Bonds", "percentage": 0.15 },
+      { "assetClass": "Cash", "percentage": 0.05 }
+    ],
+    "expectedReturn": 0.065,
+    "volatility": 0.03
+  },
+  {
+    "portfolioId": "PORT-002",
+    "name": "Balanced",
+    "riskLevel": "Medium",
+    "description": "Balanced portfolio combining fixed income stability with moderate equity growth exposure",
+    "allocation": [
+      { "assetClass": "Government Bonds", "percentage": 0.30 },
+      { "assetClass": "Equities", "percentage": 0.30 },
+      { "assetClass": "Corporate Bonds", "percentage": 0.20 },
+      { "assetClass": "Money Market", "percentage": 0.15 },
+      { "assetClass": "ETFs", "percentage": 0.05 }
+    ],
+    "expectedReturn": 0.095,
+    "volatility": 0.08
+  },
+  {
+    "portfolioId": "PORT-003",
+    "name": "Growth",
+    "riskLevel": "Medium-High",
+    "description": "Growth-oriented portfolio with significant equity allocation for long-term capital appreciation",
+    "allocation": [
+      { "assetClass": "Equities", "percentage": 0.50 },
+      { "assetClass": "Corporate Bonds", "percentage": 0.20 },
+      { "assetClass": "ETFs", "percentage": 0.15 },
+      { "assetClass": "Government Bonds", "percentage": 0.10 },
+      { "assetClass": "Mutual Funds", "percentage": 0.05 }
+    ],
+    "expectedReturn": 0.13,
+    "volatility": 0.14
+  },
+  {
+    "portfolioId": "PORT-004",
+    "name": "Aggressive",
+    "riskLevel": "High",
+    "description": "High-risk portfolio maximizing equity and growth fund exposure for aggressive capital growth",
+    "allocation": [
+      { "assetClass": "Equities", "percentage": 0.60 },
+      { "assetClass": "Mutual Funds", "percentage": 0.20 },
+      { "assetClass": "ETFs", "percentage": 0.15 },
+      { "assetClass": "Corporate Bonds", "percentage": 0.05 }
+    ],
+    "expectedReturn": 0.17,
+    "volatility": 0.22
+  }
+]

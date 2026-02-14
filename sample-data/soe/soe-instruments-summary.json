@@ -1,0 +1,47 @@
+[
+  {
+    "soeId": "SOE-001",
+    "soeName": "ZESCO",
+    "instrumentId": "INST-SOE-001",
+    "instrumentType": "Bond",
+    "outstandingAmount": 2500000000.0,
+    "maturityDate": "2030-12-31T00:00:00Z",
+    "interestRate": 0.145
+  },
+  {
+    "soeId": "SOE-002",
+    "soeName": "ZAMTEL",
+    "instrumentId": "INST-SOE-002",
+    "instrumentType": "Bond",
+    "outstandingAmount": 1200000000.0,
+    "maturityDate": "2028-06-30T00:00:00Z",
+    "interestRate": 0.135
+  },
+  {
+    "soeId": "SOE-003",
+    "soeName": "ZRL",
+    "instrumentId": "INST-SOE-003",
+    "instrumentType": "Bond",
+    "outstandingAmount": 800000000.0,
+    "maturityDate": "2029-03-31T00:00:00Z",
+    "interestRate": 0.14
+  },
+  {
+    "soeId": "SOE-004",
+    "soeName": "ZNBS",
+    "instrumentId": "INST-SOE-004",
+    "instrumentType": "Bond",
+    "outstandingAmount": 500000000.0,
+    "maturityDate": "2027-12-31T00:00:00Z",
+    "interestRate": 0.125
+  },
+  {
+    "soeId": "SOE-005",
+    "soeName": "IDC",
+    "instrumentId": "INST-SOE-005",
+    "instrumentType": "Bond",
+    "outstandingAmount": 3000000000.0,
+    "maturityDate": "2032-06-30T00:00:00Z",
+    "interestRate": 0.13
+  }
+]

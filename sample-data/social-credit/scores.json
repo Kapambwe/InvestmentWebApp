@@ -1,0 +1,42 @@
+{
+  "SOE-001": {
+    "entityId": "SOE-001",
+    "entityName": "ZESCO",
+    "score": 780,
+    "rating": "AA",
+    "lastUpdated": "2024-10-01T00:00:00Z",
+    "category": "Good"
+  },
+  "SOE-002": {
+    "entityId": "SOE-002",
+    "entityName": "ZAMTEL",
+    "score": 650,
+    "rating": "A",
+    "lastUpdated": "2024-10-01T00:00:00Z",
+    "category": "Satisfactory"
+  },
+  "SOE-003": {
+    "entityId": "SOE-003",
+    "entityName": "ZRL",
+    "score": 580,
+    "rating": "BBB",
+    "lastUpdated": "2024-10-01T00:00:00Z",
+    "category": "Adequate"
+  },
+  "SOE-004": {
+    "entityId": "SOE-004",
+    "entityName": "ZNBS",
+    "score": 720,
+    "rating": "AA",
+    "lastUpdated": "2024-10-01T00:00:00Z",
+    "category": "Good"
+  },
+  "SOE-005": {
+    "entityId": "SOE-005",
+    "entityName": "IDC",
+    "score": 850,
+    "rating": "AAA",
+    "lastUpdated": "2024-10-01T00:00:00Z",
+    "category": "Excellent"
+  }
+}

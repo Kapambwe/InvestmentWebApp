@@ -1,0 +1,12 @@
+[
+  {
+    "PortfolioId": "PORT-001",
+    "Name": "Balanced",
+    "MoneyMarketAllocation": 0.25,
+    "BondAllocation": 0.45,
+    "EquityAllocation": 0.25,
+    "SMEAllocation": 0.05,
+    "ExpectedAnnualReturn": 0.11,
+    "ExpectedVolatility": 0.08
+  }
+]

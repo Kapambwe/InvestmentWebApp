@@ -1,0 +1,8 @@
+[
+  { "rating": "AAA", "count": 120, "percentage": 0.025 },
+  { "rating": "AA", "count": 380, "percentage": 0.078 },
+  { "rating": "A", "count": 950, "percentage": 0.196 },
+  { "rating": "BBB", "count": 1450, "percentage": 0.299 },
+  { "rating": "BB", "count": 1200, "percentage": 0.247 },
+  { "rating": "B", "count": 750, "percentage": 0.155 }
+]

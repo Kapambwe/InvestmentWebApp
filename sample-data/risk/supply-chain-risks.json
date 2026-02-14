@@ -1,0 +1,62 @@
+[
+  {
+    "entityId": "PS-001",
+    "entityName": "Zambia Breweries Plc",
+    "overallScore": 42.5,
+    "riskLevel": "Low",
+    "calculatedAt": "2024-10-15T00:00:00Z",
+    "factors": {
+      "geographicConcentration": 0.35,
+      "supplierDependency": 0.45,
+      "logisticsComplexity": 0.48
+    }
+  },
+  {
+    "entityId": "PS-002",
+    "entityName": "Lubambe Copper Mines",
+    "overallScore": 68.0,
+    "riskLevel": "Medium",
+    "calculatedAt": "2024-10-15T00:00:00Z",
+    "factors": {
+      "geographicConcentration": 0.80,
+      "supplierDependency": 0.55,
+      "logisticsComplexity": 0.70
+    }
+  },
+  {
+    "entityId": "PS-003",
+    "entityName": "Neelkanth Fresh Produce",
+    "overallScore": 72.5,
+    "riskLevel": "High",
+    "calculatedAt": "2024-10-15T00:00:00Z",
+    "factors": {
+      "geographicConcentration": 0.65,
+      "supplierDependency": 0.75,
+      "logisticsComplexity": 0.78
+    }
+  },
+  {
+    "entityId": "PS-004",
+    "entityName": "Lusaka Digital Solutions",
+    "overallScore": 35.0,
+    "riskLevel": "Low",
+    "calculatedAt": "2024-10-15T00:00:00Z",
+    "factors": {
+      "geographicConcentration": 0.20,
+      "supplierDependency": 0.40,
+      "logisticsComplexity": 0.30
+    }
+  },
+  {
+    "entityId": "PS-005",
+    "entityName": "Choma Livestock Trading",
+    "overallScore": 58.5,
+    "riskLevel": "Medium",
+    "calculatedAt": "2024-10-15T00:00:00Z",
+    "factors": {
+      "geographicConcentration": 0.55,
+      "supplierDependency": 0.60,
+      "logisticsComplexity": 0.62
+    }
+  }
+]

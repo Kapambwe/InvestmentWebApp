@@ -1,0 +1,80 @@
+:root {
+  --surface: #f8fafc;
+  --panel: #ffffff;
+  --ink: #0f172a;
+  --muted: #64748b;
+  --accent: #2563eb;
+  --nav: #0f172a;
+  --nav-accent: #1e293b;
+}
+
+html, body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: radial-gradient(circle at top left, #e2e8f0, #f8fafc 55%, #ffffff 100%);
+  color: var(--ink);
+  margin: 0;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: linear-gradient(120deg, #0f172a, #1e293b 55%, #334155);
+  color: #e2e8f0;
+}
+
+.brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.app-content {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+}
+
+.app-nav {
+  background: var(--nav);
+  color: #e2e8f0;
+  border-radius: 1rem;
+  padding: 1rem;
+  min-height: 70vh;
+}
+
+.app-main {
+  background: transparent;
+}
+
+.rz-panel-menu {
+  background: transparent;
+  border: none;
+}
+
+.rz-panel-menu .rz-navigation-item {
+  color: #e2e8f0;
+}
+
+.rz-panel-menu .rz-navigation-item:hover {
+  background: var(--nav-accent);
+}
+
+@media (max-width: 960px) {
+  .app-content {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .app-nav {
+    min-height: auto;
+  }
+}

@@ -1,0 +1,6 @@
+[
+  { "instrumentType": "SOE Corporate Bonds", "count": 6, "outstandingAmount": 9200000000 },
+  { "instrumentType": "Government-Guaranteed Bonds", "count": 4, "outstandingAmount": 6500000000 },
+  { "instrumentType": "Tariff-Backed Revenue Bonds", "count": 3, "outstandingAmount": 2800000000 },
+  { "instrumentType": "Green/Climate Bonds", "count": 2, "outstandingAmount": 1500000000 }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "milestoneId": "MS-001",
+    "projectId": "PPP-001",
+    "name": "Lusaka-Kabwe Section Complete",
+    "description": "Complete dual carriageway construction for Lusaka to Kabwe section (130km)",
+    "value": 2800000000.0,
+    "dueDate": "2024-12-31T00:00:00Z",
+    "status": "Completed",
+    "independentVerificationRequired": true,
+    "requiredEvidence": ["Engineering Completion Report", "Site Photographs", "Quality Assurance Certificate"]
+  },
+  {
+    "milestoneId": "MS-002",
+    "projectId": "PPP-001",
+    "name": "Kabwe-Kapiri Mposhi Section Complete",
+    "description": "Complete dual carriageway for Kabwe to Kapiri Mposhi section (65km)",
+    "value": 1500000000.0,
+    "dueDate": "2025-06-30T00:00:00Z",
+    "status": "InProgress",
+    "independentVerificationRequired": true,
+    "requiredEvidence": ["Engineering Completion Report", "Site Photographs"]
+  },
+  {
+    "milestoneId": "MS-003",
+    "projectId": "PPP-001",
+    "name": "Kapiri Mposhi-Ndola Section Complete",
+    "description": "Complete dual carriageway for Kapiri Mposhi to Ndola section (125km)",
+    "value": 3200000000.0,
+    "dueDate": "2026-12-31T00:00:00Z",
+    "status": "Pending",
+    "independentVerificationRequired": true,
+    "requiredEvidence": ["Engineering Completion Report", "Site Photographs", "Environmental Impact Assessment"]
+  },
+  {
+    "milestoneId": "MS-004",
+    "projectId": "PPP-002",
+    "name": "Solar Panel Installation Complete",
+    "description": "Installation of all 100MW photovoltaic panels and grid connection",
+    "value": 1800000000.0,
+    "dueDate": "2023-03-31T00:00:00Z",
+    "status": "Completed",
+    "independentVerificationRequired": true,
+    "requiredEvidence": ["Installation Certificate", "Grid Connection Test Report", "Output Verification"]
+  },
+  {
+    "milestoneId": "MS-005",
+    "projectId": "PPP-003",
+    "name": "Terminal Building Foundation",
+    "description": "Complete foundation and structural framework for the new international terminal",
+    "value": 1500000000.0,
+    "dueDate": "2024-09-30T00:00:00Z",
+    "status": "Completed",
+    "independentVerificationRequired": true,
+    "requiredEvidence": ["Structural Engineering Report", "Foundation Inspection Certificate"]
+  },
+  {
+    "milestoneId": "MS-006",
+    "projectId": "PPP-003",
+    "name": "Terminal Fit-Out and Commissioning",
+    "description": "Complete interior fit-out, systems installation and commissioning of new terminal",
+    "value": 2500000000.0,
+    "dueDate": "2026-06-30T00:00:00Z",
+    "status": "InProgress",
+    "independentVerificationRequired": true,
+    "requiredEvidence": ["Commissioning Report", "Safety Certification", "ICAO Compliance Certificate"]
+  }
+]

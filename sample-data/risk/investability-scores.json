@@ -1,0 +1,67 @@
+[
+  {
+    "smeId": "PS-001",
+    "smeName": "Zambia Breweries Plc",
+    "overallScore": 82.0,
+    "rating": "A",
+    "calculatedAt": "2024-10-15T00:00:00Z",
+    "components": {
+      "financialHealth": 85.0,
+      "marketPosition": 88.0,
+      "managementQuality": 78.0,
+      "growthPotential": 76.0
+    }
+  },
+  {
+    "smeId": "PS-002",
+    "smeName": "Lubambe Copper Mines",
+    "overallScore": 75.5,
+    "rating": "B+",
+    "calculatedAt": "2024-10-15T00:00:00Z",
+    "components": {
+      "financialHealth": 78.0,
+      "marketPosition": 80.0,
+      "managementQuality": 72.0,
+      "growthPotential": 71.0
+    }
+  },
+  {
+    "smeId": "PS-003",
+    "smeName": "Neelkanth Fresh Produce",
+    "overallScore": 68.0,
+    "rating": "B",
+    "calculatedAt": "2024-10-15T00:00:00Z",
+    "components": {
+      "financialHealth": 65.0,
+      "marketPosition": 62.0,
+      "managementQuality": 72.0,
+      "growthPotential": 74.0
+    }
+  },
+  {
+    "smeId": "PS-004",
+    "smeName": "Lusaka Digital Solutions",
+    "overallScore": 71.0,
+    "rating": "B+",
+    "calculatedAt": "2024-10-15T00:00:00Z",
+    "components": {
+      "financialHealth": 60.0,
+      "marketPosition": 65.0,
+      "managementQuality": 75.0,
+      "growthPotential": 88.0
+    }
+  },
+  {
+    "smeId": "PS-005",
+    "smeName": "Choma Livestock Trading",
+    "overallScore": 55.0,
+    "rating": "B-",
+    "calculatedAt": "2024-10-15T00:00:00Z",
+    "components": {
+      "financialHealth": 52.0,
+      "marketPosition": 50.0,
+      "managementQuality": 58.0,
+      "growthPotential": 60.0
+    }
+  }
+]

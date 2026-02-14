@@ -1,0 +1,57 @@
+{
+  "SOE-001": {
+    "entityId": "SOE-001",
+    "totalScore": 780,
+    "components": {
+      "financialCompliance": 170,
+      "taxCompliance": 165,
+      "employmentPractices": 155,
+      "environmentalCompliance": 140,
+      "socialResponsibility": 150
+    }
+  },
+  "SOE-002": {
+    "entityId": "SOE-002",
+    "totalScore": 650,
+    "components": {
+      "financialCompliance": 140,
+      "taxCompliance": 145,
+      "employmentPractices": 130,
+      "environmentalCompliance": 110,
+      "socialResponsibility": 125
+    }
+  },
+  "SOE-003": {
+    "entityId": "SOE-003",
+    "totalScore": 580,
+    "components": {
+      "financialCompliance": 120,
+      "taxCompliance": 130,
+      "employmentPractices": 115,
+      "environmentalCompliance": 100,
+      "socialResponsibility": 115
+    }
+  },
+  "SOE-004": {
+    "entityId": "SOE-004",
+    "totalScore": 720,
+    "components": {
+      "financialCompliance": 160,
+      "taxCompliance": 155,
+      "employmentPractices": 140,
+      "environmentalCompliance": 130,
+      "socialResponsibility": 135
+    }
+  },
+  "SOE-005": {
+    "entityId": "SOE-005",
+    "totalScore": 850,
+    "components": {
+      "financialCompliance": 185,
+      "taxCompliance": 180,
+      "employmentPractices": 170,
+      "environmentalCompliance": 155,
+      "socialResponsibility": 160
+    }
+  }
+}

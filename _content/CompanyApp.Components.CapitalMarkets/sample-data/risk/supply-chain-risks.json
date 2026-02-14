@@ -1,0 +1,61 @@
+[
+  {
+    "EntityId": "ENT-001",
+    "EntityName": "Copper Belt Logistics",
+    "CompositeScore": 72.0,
+    "Tier": 1,
+    "ConcentrationRisk": {
+      "BuyerHHI": 0.22,
+      "SupplierHHI": 0.18,
+      "TopBuyerShare": 0.35,
+      "TopSupplierShare": 0.3,
+      "BuyerCount": 14,
+      "SupplierCount": 11,
+      "Score": 70.0
+    },
+    "DisruptionRisk": {
+      "CriticalNodeScore": 65.0,
+      "SubstitutionCapacity": 0.6,
+      "LeadTimeVolatility": 0.2,
+      "CriticalNodes": [
+        { "NodeId": "N2", "Name": "LogisticsHub", "RiskScore": 78.0, "Rationale": "High centrality in corridor." }
+      ],
+      "Score": 68.0
+    },
+    "LogisticsRisk": {
+      "TransitTimeVariance": 0.12,
+      "RouteConcentration": 0.3,
+      "CarrierDependency": 0.4,
+      "OnTimeDeliveryRate": 0.89,
+      "Score": 73.0
+    },
+    "PaymentRisk": {
+      "AveragePaymentDelay": 12.0,
+      "PaymentDelayVariance": 4.0,
+      "DisputedInvoiceRate": 0.02,
+      "DefaultRate": 0.01,
+      "Score": 75.0
+    },
+    "SystemicRisk": {
+      "ClusterCorrelation": 0.4,
+      "SectorContagion": 0.3,
+      "NetworkCentrality": 0.55,
+      "ClusterId": "CL-01",
+      "ClusterSize": 18,
+      "Score": 70.0
+    },
+    "ActiveAlerts": [
+      {
+        "AlertId": "ALERT-01",
+        "Severity": 1,
+        "AlertType": "PaymentDelay",
+        "Description": "Average payment delay exceeds 10 days.",
+        "RecommendedAction": "Review counterparty payment terms.",
+        "DetectedAt": "2026-01-24T00:00:00Z",
+        "IsAcknowledged": false
+      }
+    ],
+    "CalculatedAt": "2026-01-25T00:00:00Z",
+    "ModelVersion": "1.0"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "projectId": "PPP-001",
+    "projectName": "Lusaka-Ndola Dual Carriageway",
+    "sector": "Transport",
+    "type": "BuildOperateTransfer",
+    "description": "Upgrade of the T2 highway to a dual carriageway connecting Lusaka and Ndola via Kapiri Mposhi",
+    "grantor": "Road Development Agency",
+    "concessionaire": "China Jiangxi Corporation",
+    "location": "Lusaka to Ndola (320km)",
+    "status": "UnderConstruction",
+    "registrationDate": "2021-03-15T00:00:00Z",
+    "financials": {
+      "totalProjectCost": 8500000000.0,
+      "governmentContribution": 3400000000.0,
+      "privateContribution": 5100000000.0,
+      "currency": "ZMW"
+    },
+    "milestones": []
+  },
+  {
+    "projectId": "PPP-002",
+    "projectName": "Kafue Solar Power Plant",
+    "sector": "Energy",
+    "type": "BuildOwnOperate",
+    "description": "100MW solar photovoltaic power plant to supplement national grid capacity",
+    "grantor": "Ministry of Energy",
+    "concessionaire": "Neoen Africa Energy",
+    "location": "Kafue District, Southern Province",
+    "status": "Operational",
+    "registrationDate": "2019-07-01T00:00:00Z",
+    "financials": {
+      "totalProjectCost": 2200000000.0,
+      "governmentContribution": 440000000.0,
+      "privateContribution": 1760000000.0,
+      "currency": "ZMW"
+    },
+    "milestones": []
+  },
+  {
+    "projectId": "PPP-003",
+    "projectName": "Kenneth Kaunda International Airport Expansion",
+    "sector": "Transport",
+    "type": "RehabilitateOperateTransfer",
+    "description": "Expansion and modernization of the international terminal and runway infrastructure",
+    "grantor": "National Airports Corporation",
+    "concessionaire": "Aviation Infrastructure Partners",
+    "location": "Lusaka, Lusaka Province",
+    "status": "UnderConstruction",
+    "registrationDate": "2022-01-10T00:00:00Z",
+    "financials": {
+      "totalProjectCost": 5000000000.0,
+      "governmentContribution": 1500000000.0,
+      "privateContribution": 3500000000.0,
+      "currency": "ZMW"
+    },
+    "milestones": []
+  },
+  {
+    "projectId": "PPP-004",
+    "projectName": "Lusaka Water Supply Improvement",
+    "sector": "Water & Sanitation",
+    "type": "BuildOperateTransfer",
+    "description": "Expansion of water treatment and distribution network for Greater Lusaka",
+    "grantor": "Lusaka Water and Sewerage Company",
+    "concessionaire": "Aqua Africa Consortium",
+    "location": "Lusaka Metropolitan Area",
+    "status": "Procurement",
+    "registrationDate": "2023-06-20T00:00:00Z",
+    "financials": {
+      "totalProjectCost": 3200000000.0,
+      "governmentContribution": 1280000000.0,
+      "privateContribution": 1920000000.0,
+      "currency": "ZMW"
+    },
+    "milestones": []
+  }
+]

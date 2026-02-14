@@ -1,0 +1,13 @@
+[
+  {
+    "GoalId": "GOAL-001",
+    "InvestorId": "INV-001",
+    "Type": 1,
+    "TargetAmount": 25000.0,
+    "CurrentAmount": 7200.0,
+    "TargetDate": "2027-07-01T00:00:00Z",
+    "MonthlyContribution": 750.0,
+    "Priority": 0,
+    "IsActive": true
+  }
+]

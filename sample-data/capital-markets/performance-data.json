@@ -1,0 +1,14 @@
+[
+  { "date": "2024-01-31T00:00:00Z", "value": 100.0, "label": "Portfolio" },
+  { "date": "2024-02-29T00:00:00Z", "value": 102.3, "label": "Portfolio" },
+  { "date": "2024-03-31T00:00:00Z", "value": 105.1, "label": "Portfolio" },
+  { "date": "2024-04-30T00:00:00Z", "value": 103.8, "label": "Portfolio" },
+  { "date": "2024-05-31T00:00:00Z", "value": 107.4, "label": "Portfolio" },
+  { "date": "2024-06-30T00:00:00Z", "value": 110.2, "label": "Portfolio" },
+  { "date": "2024-07-31T00:00:00Z", "value": 108.9, "label": "Portfolio" },
+  { "date": "2024-08-31T00:00:00Z", "value": 112.5, "label": "Portfolio" },
+  { "date": "2024-09-30T00:00:00Z", "value": 115.3, "label": "Portfolio" },
+  { "date": "2024-10-31T00:00:00Z", "value": 113.7, "label": "Portfolio" },
+  { "date": "2024-11-30T00:00:00Z", "value": 118.2, "label": "Portfolio" },
+  { "date": "2024-12-31T00:00:00Z", "value": 121.0, "label": "Portfolio" }
+]

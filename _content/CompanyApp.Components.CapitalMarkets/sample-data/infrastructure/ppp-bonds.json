@@ -1,0 +1,15 @@
+[
+  {
+    "BondId": "BOND-001",
+    "ProjectId": "PPP-001",
+    "Name": "Lusaka Corridor Bond",
+    "FaceValue": 150000000.0,
+    "CouponRate": 0.12,
+    "TenorMonths": 84,
+    "Currency": "ZMW",
+    "IssueDate": "2026-01-05T00:00:00Z",
+    "MaturityDate": "2033-01-05T00:00:00Z",
+    "Rating": "A-",
+    "Status": 1
+  }
+]

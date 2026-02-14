@@ -1,0 +1,100 @@
+{
+  "did:zambia:ministry:commerce": [
+    {
+      "logId": "LOG-001",
+      "didId": "did:zambia:ministry:commerce",
+      "action": "DIDIssued",
+      "actorId": "SEC-ZAMBIA",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "details": "Initial DID issuance for Ministry of Commerce",
+      "ipAddress": "10.0.1.100",
+      "userAgent": "CapitalMarkets/1.0"
+    },
+    {
+      "logId": "LOG-002",
+      "didId": "did:zambia:ministry:commerce",
+      "action": "RoleAssigned",
+      "actorId": "SEC-ZAMBIA",
+      "timestamp": "2024-01-01T00:15:00Z",
+      "details": "Assigned role: ApproveContracts",
+      "ipAddress": "10.0.1.100",
+      "userAgent": "CapitalMarkets/1.0"
+    },
+    {
+      "logId": "LOG-003",
+      "didId": "did:zambia:ministry:commerce",
+      "action": "DocumentSigned",
+      "actorId": "did:zambia:ministry:commerce",
+      "timestamp": "2024-01-15T10:30:00Z",
+      "details": "Signed export contract EXP-2024-001",
+      "ipAddress": "10.0.1.101",
+      "userAgent": "CapitalMarkets/1.0"
+    }
+  ],
+  "did:zambia:dbz:main": [
+    {
+      "logId": "LOG-004",
+      "didId": "did:zambia:dbz:main",
+      "action": "DIDIssued",
+      "actorId": "BOZ",
+      "timestamp": "2024-01-15T00:00:00Z",
+      "details": "Initial DID issuance for Development Bank of Zambia",
+      "ipAddress": "10.0.2.100",
+      "userAgent": "CapitalMarkets/1.0"
+    },
+    {
+      "logId": "LOG-005",
+      "didId": "did:zambia:dbz:main",
+      "action": "GuaranteeIssued",
+      "actorId": "did:zambia:dbz:main",
+      "timestamp": "2024-02-01T14:20:00Z",
+      "details": "Issued guarantee for SME bond SME-BOND-001",
+      "ipAddress": "10.0.2.101",
+      "userAgent": "CapitalMarkets/1.0"
+    }
+  ],
+  "did:zambia:bank:standard": [
+    {
+      "logId": "LOG-006",
+      "didId": "did:zambia:bank:standard",
+      "action": "DIDIssued",
+      "actorId": "BOZ",
+      "timestamp": "2024-02-01T00:00:00Z",
+      "details": "Initial DID issuance for Stanbic Bank Zambia",
+      "ipAddress": "10.0.3.100",
+      "userAgent": "CapitalMarkets/1.0"
+    },
+    {
+      "logId": "LOG-007",
+      "didId": "did:zambia:bank:standard",
+      "action": "PaymentProcessed",
+      "actorId": "did:zambia:bank:standard",
+      "timestamp": "2024-02-15T09:45:00Z",
+      "details": "Processed payment for token TKN-20240215-1001",
+      "ipAddress": "10.0.3.101",
+      "userAgent": "CapitalMarkets/1.0"
+    }
+  ],
+  "did:zambia:spv:foodsec001": [
+    {
+      "logId": "LOG-008",
+      "didId": "did:zambia:spv:foodsec001",
+      "action": "DIDIssued",
+      "actorId": "SEC-ZAMBIA",
+      "timestamp": "2024-03-01T00:00:00Z",
+      "details": "Initial DID issuance for Food Security SPV",
+      "ipAddress": "10.0.4.100",
+      "userAgent": "CapitalMarkets/1.0"
+    },
+    {
+      "logId": "LOG-009",
+      "didId": "did:zambia:spv:foodsec001",
+      "action": "TokenReceived",
+      "actorId": "did:zambia:spv:foodsec001",
+      "timestamp": "2024-03-15T11:30:00Z",
+      "details": "Received tokens for maize production contract",
+      "ipAddress": "10.0.4.101",
+      "userAgent": "CapitalMarkets/1.0"
+    }
+  ]
+}

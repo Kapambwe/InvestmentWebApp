@@ -1,0 +1,46 @@
+[
+  {
+    "resultId": "ST-001",
+    "scenarioId": "SCENARIO-001",
+    "portfolioId": "PORT-001",
+    "executedAt": "2024-10-01T00:00:00Z",
+    "baselineValue": 1000000.0,
+    "stressedValue": 935000.0,
+    "loss": 65000.0,
+    "lossPercentage": 0.065,
+    "breachedLimits": []
+  },
+  {
+    "resultId": "ST-002",
+    "scenarioId": "SCENARIO-001",
+    "portfolioId": "PORT-002",
+    "executedAt": "2024-10-01T00:00:00Z",
+    "baselineValue": 1000000.0,
+    "stressedValue": 870000.0,
+    "loss": 130000.0,
+    "lossPercentage": 0.13,
+    "breachedLimits": []
+  },
+  {
+    "resultId": "ST-003",
+    "scenarioId": "SCENARIO-002",
+    "portfolioId": "PORT-003",
+    "executedAt": "2024-10-01T00:00:00Z",
+    "baselineValue": 1000000.0,
+    "stressedValue": 780000.0,
+    "loss": 220000.0,
+    "lossPercentage": 0.22,
+    "breachedLimits": ["MaxDrawdown"]
+  },
+  {
+    "resultId": "ST-004",
+    "scenarioId": "SCENARIO-002",
+    "portfolioId": "PORT-004",
+    "executedAt": "2024-10-01T00:00:00Z",
+    "baselineValue": 1000000.0,
+    "stressedValue": 680000.0,
+    "loss": 320000.0,
+    "lossPercentage": 0.32,
+    "breachedLimits": ["MaxDrawdown", "ValueAtRisk"]
+  }
+]
