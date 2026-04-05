@@ -1,0 +1,102 @@
+{
+  "Ministry": [
+    {
+      "roleId": "ApproveContracts",
+      "roleName": "Contract Approval Authority",
+      "description": "Authority to approve government contracts and agreements",
+      "permissions": ["contract.approve", "contract.sign", "contract.modify"]
+    },
+    {
+      "roleId": "IssueExportLicenses",
+      "roleName": "Export License Issuer",
+      "description": "Authority to issue export licenses and permits",
+      "permissions": ["export.license", "export.approve", "export.track"]
+    },
+    {
+      "roleId": "SignTradeAgreements",
+      "roleName": "Trade Agreement Signatory",
+      "description": "Authority to sign international trade agreements",
+      "permissions": ["trade.sign", "trade.negotiate", "trade.approve"]
+    }
+  ],
+  "Guarantor": [
+    {
+      "roleId": "IssueGuarantees",
+      "roleName": "Guarantee Issuer",
+      "description": "Authority to issue financial guarantees",
+      "permissions": ["guarantee.issue", "guarantee.approve", "guarantee.modify"]
+    },
+    {
+      "roleId": "SignBonds",
+      "roleName": "Bond Signatory",
+      "description": "Authority to sign bond agreements",
+      "permissions": ["bond.sign", "bond.approve", "bond.issue"]
+    },
+    {
+      "roleId": "ProcessPayments",
+      "roleName": "Payment Processor",
+      "description": "Authority to process guarantee payments",
+      "permissions": ["payment.process", "payment.approve", "payment.verify"]
+    }
+  ],
+  "CustodianBank": [
+    {
+      "roleId": "ExecutePayments",
+      "roleName": "Payment Executor",
+      "description": "Authority to execute payment instructions",
+      "permissions": ["payment.execute", "payment.verify", "payment.settle"]
+    },
+    {
+      "roleId": "CustodyServices",
+      "roleName": "Custody Service Provider",
+      "description": "Authority to provide custody services",
+      "permissions": ["custody.hold", "custody.transfer", "custody.report"]
+    },
+    {
+      "roleId": "SettlementInstructions",
+      "roleName": "Settlement Instructor",
+      "description": "Authority to issue settlement instructions",
+      "permissions": ["settlement.instruct", "settlement.confirm", "settlement.reconcile"]
+    }
+  ],
+  "SPV": [
+    {
+      "roleId": "HoldTokens",
+      "roleName": "Token Holder",
+      "description": "Authority to hold and manage tokens",
+      "permissions": ["token.hold", "token.transfer", "token.report"]
+    },
+    {
+      "roleId": "ReceiveRevenues",
+      "roleName": "Revenue Receiver",
+      "description": "Authority to receive and distribute revenues",
+      "permissions": ["revenue.receive", "revenue.distribute", "revenue.report"]
+    },
+    {
+      "roleId": "IssueInstruments",
+      "roleName": "Instrument Issuer",
+      "description": "Authority to issue financial instruments",
+      "permissions": ["instrument.issue", "instrument.modify", "instrument.redeem"]
+    }
+  ],
+  "SME": [
+    {
+      "roleId": "ProveDelivery",
+      "roleName": "Delivery Prover",
+      "description": "Authority to prove delivery of goods/services",
+      "permissions": ["delivery.prove", "delivery.verify", "delivery.report"]
+    },
+    {
+      "roleId": "ReceivePayments",
+      "roleName": "Payment Receiver",
+      "description": "Authority to receive payments",
+      "permissions": ["payment.receive", "payment.confirm", "payment.report"]
+    },
+    {
+      "roleId": "ReportProduction",
+      "roleName": "Production Reporter",
+      "description": "Authority to report production metrics",
+      "permissions": ["production.report", "production.verify", "production.track"]
+    }
+  ]
+}

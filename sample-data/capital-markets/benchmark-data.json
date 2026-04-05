@@ -1,0 +1,14 @@
+[
+  { "date": "2024-01-31T00:00:00Z", "value": 100.0, "label": "Benchmark" },
+  { "date": "2024-02-29T00:00:00Z", "value": 101.5, "label": "Benchmark" },
+  { "date": "2024-03-31T00:00:00Z", "value": 103.2, "label": "Benchmark" },
+  { "date": "2024-04-30T00:00:00Z", "value": 102.1, "label": "Benchmark" },
+  { "date": "2024-05-31T00:00:00Z", "value": 104.8, "label": "Benchmark" },
+  { "date": "2024-06-30T00:00:00Z", "value": 106.5, "label": "Benchmark" },
+  { "date": "2024-07-31T00:00:00Z", "value": 105.3, "label": "Benchmark" },
+  { "date": "2024-08-31T00:00:00Z", "value": 108.1, "label": "Benchmark" },
+  { "date": "2024-09-30T00:00:00Z", "value": 110.4, "label": "Benchmark" },
+  { "date": "2024-10-31T00:00:00Z", "value": 109.2, "label": "Benchmark" },
+  { "date": "2024-11-30T00:00:00Z", "value": 112.6, "label": "Benchmark" },
+  { "date": "2024-12-31T00:00:00Z", "value": 114.8, "label": "Benchmark" }
+]

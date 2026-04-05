@@ -1,0 +1,18 @@
+[
+  {
+    "logId": "LOG-001",
+    "timestamp": "2024-03-25T14:15:00Z",
+    "entityName": "ZESCO",
+    "actionTaken": "Issued Late Filing Warning",
+    "reason": "Annual Report overdue by 24h",
+    "signatureId": "did:gov:sec:sig:993"
+  },
+  {
+    "logId": "LOG-002",
+    "timestamp": "2024-03-25T11:45:00Z",
+    "entityName": "ABC Manufacturing",
+    "actionTaken": "Update Social Credit",
+    "reason": "Environmental non-compliance detected in Supply Chain Twin",
+    "signatureId": "did:gov:sec:sig:112"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "TokenizeInstrument": {
+    "action": "TokenizeInstrument",
+    "requiredSignatures": 3,
+    "requiredRoles": ["IssueInstruments", "ApproveContracts", "IssueGuarantees"],
+    "timeoutHours": 72,
+    "description": "Tokenization of financial instruments requires multi-party approval"
+  },
+  "IssueGuarantee": {
+    "action": "IssueGuarantee",
+    "requiredSignatures": 2,
+    "requiredRoles": ["IssueGuarantees", "ApproveContracts"],
+    "timeoutHours": 48,
+    "description": "Guarantee issuance requires guarantor and ministry approval"
+  },
+  "ProcessLargePayment": {
+    "action": "ProcessLargePayment",
+    "requiredSignatures": 2,
+    "requiredRoles": ["ExecutePayments", "ProcessPayments"],
+    "timeoutHours": 24,
+    "description": "Large payments require dual authorization"
+  },
+  "EmergencyFreeze": {
+    "action": "EmergencyFreeze",
+    "requiredSignatures": 1,
+    "requiredRoles": ["RegulatorAdmin"],
+    "timeoutHours": 1,
+    "description": "Emergency freeze can be executed by regulator immediately"
+  },
+  "RevokeRole": {
+    "action": "RevokeRole",
+    "requiredSignatures": 2,
+    "requiredRoles": ["RegulatorAdmin", "MinistrySecretary"],
+    "timeoutHours": 48,
+    "description": "Role revocation requires regulatory and ministry approval"
+  },
+  "ModifyGovernancePolicy": {
+    "action": "ModifyGovernancePolicy",
+    "requiredSignatures": 4,
+    "requiredRoles": ["RegulatorAdmin", "MinistrySecretary", "BOZ", "SEC-ZAMBIA"],
+    "timeoutHours": 168,
+    "description": "Governance policy changes require broad regulatory consensus"
+  }
+}

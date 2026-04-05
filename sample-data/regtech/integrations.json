@@ -1,0 +1,24 @@
+[
+  {
+    "systemId": "SYS-ACC-001",
+    "systemName": "Sage ERP Cloud",
+    "organization": "Zambia Industrial Holdings",
+    "apiKey": "sk_live_**********5566",
+    "webhookUrl": "https://api.sage.com/webhooks/regtech",
+    "status": 0,
+    "connectedAt": "2024-01-10T10:00:00Z",
+    "lastSyncAt": "2024-03-25T08:00:00Z",
+    "allowedDataScopes": "Tax, Compliance, Disclosure"
+  },
+  {
+    "systemId": "SYS-ACC-002",
+    "systemName": "QuickBooks Enterprise",
+    "organization": "Copperbelt Logistics",
+    "apiKey": "sk_live_**********9988",
+    "webhookUrl": "https://hooks.quickbooks.intuit.com/v1/reg",
+    "status": 1,
+    "connectedAt": "2024-02-15T14:30:00Z",
+    "lastSyncAt": "2024-03-20T16:45:00Z",
+    "allowedDataScopes": "Tax, Financials"
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "InvestorId": "INV-001",
+    "NRC": "123456/10/1",
+    "FullName": "Chipo Banda",
+    "FirstName": "Chipo",
+    "LastName": "Banda",
+    "DateOfBirth": "1990-06-12T00:00:00Z",
+    "Gender": "Female",
+    "Email": "chipo.banda@example.com",
+    "PhoneNumber": "+260971000000",
+    "MobileMoneyNumber": "+260971000000",
+    "ResidentialAddress": {
+      "Line1": "Plot 10",
+      "Line2": "",
+      "City": "Lusaka",
+      "District": "Lusaka",
+      "Province": "Lusaka",
+      "PostalCode": "",
+      "Country": "Zambia"
+    },
+    "Province": "Lusaka",
+    "District": "Lusaka",
+    "Category": 0,
+    "KYCStatus": 1,
+    "RiskProfile": {
+      "ProfileId": "RP-001",
+      "Tolerance": 1,
+      "InvestmentHorizonYears": 8,
+      "MonthlyIncome": 7500.0,
+      "MonthlyExpenses": 4200.0,
+      "ExistingDebts": 800.0,
+      "LiquidAssets": 2000.0,
+      "HasEmergencyFund": true,
+      "InvestmentExperienceYears": 2,
+      "InvestmentKnowledge": ["Bonds", "Money Market"],
+      "AssessmentDate": "2026-01-10T00:00:00Z",
+      "NextReviewDate": "2027-01-10T00:00:00Z"
+    },
+    "Goals": [
+      {
+        "GoalId": "GOAL-001",
+        "Type": 1,
+        "CustomName": "",
+        "TargetAmount": 25000.0,
+        "CurrentAmount": 7200.0,
+        "TargetDate": "2027-07-01T00:00:00Z",
+        "MonthlyContribution": 750.0,
+        "Priority": 0,
+        "IsActive": true,
+        "RecommendedPortfolio": {
+          "PortfolioId": "PORT-001",
+          "Name": "Balanced",
+          "MoneyMarketAllocation": 0.25,
+          "BondAllocation": 0.45,
+          "EquityAllocation": 0.25,
+          "SMEAllocation": 0.05,
+          "ExpectedAnnualReturn": 0.11,
+          "ExpectedVolatility": 0.08,
+          "Constituents": [
+            { "InstrumentId": "MMF-01", "InstrumentName": "Money Market Fund", "AllocationPercent": 0.25 },
+            { "InstrumentId": "BND-01", "InstrumentName": "Government Bond Fund", "AllocationPercent": 0.45 },
+            { "InstrumentId": "EQ-01", "InstrumentName": "Equity Index", "AllocationPercent": 0.25 },
+            { "InstrumentId": "SME-01", "InstrumentName": "SME Growth Fund", "AllocationPercent": 0.05 }
+          ]
+        }
+      }
+    ],
+    "Accounts": [
+      {
+        "AccountId": "ACC-001",
+        "Type": 0,
+        "Currency": "ZMW",
+        "Balance": 7200.0,
+        "AvailableBalance": 7000.0,
+        "LockedBalance": 200.0,
+        "Holdings": [
+          {
+            "HoldingId": "HLD-001",
+            "InstrumentId": "BND-01",
+            "InstrumentName": "Government Bond Fund",
+            "InstrumentType": "Bond Fund",
+            "Quantity": 120.0,
+            "AverageCost": 50.0,
+            "CurrentValue": 6100.0,
+            "UnrealizedGainLoss": 100.0,
+            "UnrealizedGainLossPercent": 0.016,
+            "FirstPurchaseDate": "2025-11-15T00:00:00Z",
+            "IsLocked": false,
+            "LockEndDate": null
+          }
+        ],
+        "RecurringInvestments": [
+          {
+            "RecurringId": "REC-001",
+            "InstrumentId": "MMF-01",
+            "Amount": 750.0,
+            "Frequency": 2,
+            "DayOfMonth": 25,
+            "FundingSource": 0,
+            "StartDate": "2025-11-25T00:00:00Z",
+            "EndDate": null,
+            "IsActive": true,
+            "NextExecutionDate": "2026-02-25T00:00:00Z"
+          }
+        ],
+        "OpenedDate": "2025-11-01T00:00:00Z",
+        "Status": 1
+      }
+    ],
+    "Affordability": {
+      "MonthlyDisposableIncome": 3300.0,
+      "RecommendedMaxInvestment": 1200.0,
+      "DebtToIncomeRatio": 0.11,
+      "PassesAffordabilityCheck": true,
+      "AssessmentNotes": "Disposable income supports recurring investing.",
+      "AssessmentDate": "2026-01-10T00:00:00Z"
+    },
+    "RegistrationDate": "2025-11-01T00:00:00Z",
+    "KYCApprovalDate": null,
+    "IsActive": true,
+    "IsBlacklisted": false,
+    "BlacklistReason": ""
+  }
+]

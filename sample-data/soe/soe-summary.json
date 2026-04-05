@@ -1,0 +1,16 @@
+{
+  "totalSOEs": 35,
+  "totalEmployees": 48000,
+  "totalAssets": 250000000000.0,
+  "totalRevenue": 65000000000.0,
+  "sectorBreakdown": [
+    { "sector": "Energy", "count": 5, "percentage": 0.143 },
+    { "sector": "Mining", "count": 4, "percentage": 0.114 },
+    { "sector": "Transport", "count": 4, "percentage": 0.114 },
+    { "sector": "Telecommunications", "count": 3, "percentage": 0.086 },
+    { "sector": "Financial Services", "count": 6, "percentage": 0.171 },
+    { "sector": "Agriculture", "count": 5, "percentage": 0.143 },
+    { "sector": "Investment", "count": 3, "percentage": 0.086 },
+    { "sector": "Water & Sanitation", "count": 5, "percentage": 0.143 }
+  ]
+}

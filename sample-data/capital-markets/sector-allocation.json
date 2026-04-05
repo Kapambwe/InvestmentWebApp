@@ -1,0 +1,8 @@
+[
+  { "sector": "Financial Services", "percentage": 0.30, "value": 24750000.0 },
+  { "sector": "Mining", "percentage": 0.25, "value": 20625000.0 },
+  { "sector": "Energy", "percentage": 0.15, "value": 12375000.0 },
+  { "sector": "Agriculture", "percentage": 0.12, "value": 9900000.0 },
+  { "sector": "Consumer Goods", "percentage": 0.10, "value": 8250000.0 },
+  { "sector": "Technology", "percentage": 0.08, "value": 6600000.0 }
+]

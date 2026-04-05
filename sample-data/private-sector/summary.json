@@ -1,0 +1,16 @@
+{
+  "totalEntities": 4850,
+  "totalEmployees": 425000,
+  "womanOwnedCount": 1420,
+  "youthOwnedCount": 780,
+  "industryBreakdown": [
+    { "industry": "Agriculture", "count": 1250, "percentage": 0.258 },
+    { "industry": "Manufacturing", "count": 680, "percentage": 0.140 },
+    { "industry": "Mining", "count": 320, "percentage": 0.066 },
+    { "industry": "Financial Services", "count": 450, "percentage": 0.093 },
+    { "industry": "Technology", "count": 380, "percentage": 0.078 },
+    { "industry": "Retail & Trade", "count": 920, "percentage": 0.190 },
+    { "industry": "Construction", "count": 410, "percentage": 0.085 },
+    { "industry": "Tourism & Hospitality", "count": 440, "percentage": 0.091 }
+  ]
+}

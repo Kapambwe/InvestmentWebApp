@@ -1,0 +1,250 @@
+[
+  {
+    "investorId": "INV-001",
+    "nrc": "234567/12/1",
+    "fullName": "Mwamba Chishimba",
+    "dateOfBirth": "1985-04-15T00:00:00Z",
+    "email": "mwamba.chishimba@gmail.com",
+    "phoneNumber": "+260971234567",
+    "mobileMoneyNumber": "+260971234567",
+    "residentialAddress": "Plot 42, Kabulonga Road, Lusaka",
+    "registrationDate": "2023-03-15T00:00:00Z",
+    "kycStatus": "Approved",
+    "isActive": true,
+    "accounts": [
+      {
+        "accountId": "ACC-001",
+        "type": "Individual",
+        "currency": "ZMW",
+        "balance": 125000.0,
+        "openedDate": "2023-03-15T00:00:00Z",
+        "status": "Active",
+        "holdings": [
+          {
+            "holdingId": "HOLD-001",
+            "instrumentId": "INST-001",
+            "instrumentName": "Government Bond 2030",
+            "units": 50.0,
+            "averageCost": 1000.0,
+            "currentValue": 52500.0,
+            "gainLoss": 2500.0,
+            "gainLossPercent": 0.05
+          },
+          {
+            "holdingId": "HOLD-002",
+            "instrumentId": "INST-002",
+            "instrumentName": "Zambia National Commercial Bank Equity",
+            "units": 5000.0,
+            "averageCost": 4.50,
+            "currentValue": 24250.0,
+            "gainLoss": 1750.0,
+            "gainLossPercent": 0.078
+          }
+        ]
+      }
+    ],
+    "goals": [
+      {
+        "goalId": "GOAL-001",
+        "type": "Retirement",
+        "customName": "Retirement Savings",
+        "targetAmount": 1000000.0,
+        "currentAmount": 125000.0,
+        "targetDate": "2045-12-31T00:00:00Z",
+        "monthlyContribution": 3000.0,
+        "priority": "High",
+        "isActive": true,
+        "progressPercentage": 0.125
+      }
+    ]
+  },
+  {
+    "investorId": "INV-002",
+    "nrc": "345678/23/1",
+    "fullName": "Naomi Mutale",
+    "dateOfBirth": "1992-08-22T00:00:00Z",
+    "email": "naomi.mutale@yahoo.com",
+    "phoneNumber": "+260962345678",
+    "mobileMoneyNumber": "+260962345678",
+    "residentialAddress": "15 Independence Avenue, Ndola",
+    "registrationDate": "2023-06-10T00:00:00Z",
+    "kycStatus": "Approved",
+    "isActive": true,
+    "accounts": [
+      {
+        "accountId": "ACC-002",
+        "type": "Individual",
+        "currency": "ZMW",
+        "balance": 85000.0,
+        "openedDate": "2023-06-10T00:00:00Z",
+        "status": "Active",
+        "holdings": [
+          {
+            "holdingId": "HOLD-003",
+            "instrumentId": "INST-006",
+            "instrumentName": "Zambia Money Market Fund",
+            "units": 45000.0,
+            "averageCost": 1.0,
+            "currentValue": 48690.0,
+            "gainLoss": 3690.0,
+            "gainLossPercent": 0.082
+          },
+          {
+            "holdingId": "HOLD-004",
+            "instrumentId": "INST-007",
+            "instrumentName": "LuSE All Share ETF",
+            "units": 1200.0,
+            "averageCost": 23.50,
+            "currentValue": 30720.0,
+            "gainLoss": 2520.0,
+            "gainLossPercent": 0.089
+          }
+        ]
+      }
+    ],
+    "goals": [
+      {
+        "goalId": "GOAL-002",
+        "type": "Education",
+        "customName": "Children's Education Fund",
+        "targetAmount": 300000.0,
+        "currentAmount": 85000.0,
+        "targetDate": "2035-01-31T00:00:00Z",
+        "monthlyContribution": 2000.0,
+        "priority": "High",
+        "isActive": true,
+        "progressPercentage": 0.283
+      }
+    ]
+  },
+  {
+    "investorId": "INV-003",
+    "nrc": "456789/34/1",
+    "fullName": "Bwalya Kapambwe",
+    "dateOfBirth": "1978-11-05T00:00:00Z",
+    "email": "bwalya.kapambwe@outlook.com",
+    "phoneNumber": "+260953456789",
+    "mobileMoneyNumber": "+260953456789",
+    "residentialAddress": "22 Freedom Way, Kitwe",
+    "registrationDate": "2022-11-20T00:00:00Z",
+    "kycStatus": "Approved",
+    "isActive": true,
+    "accounts": [
+      {
+        "accountId": "ACC-003",
+        "type": "Individual",
+        "currency": "ZMW",
+        "balance": 350000.0,
+        "openedDate": "2022-11-20T00:00:00Z",
+        "status": "Active",
+        "holdings": [
+          {
+            "holdingId": "HOLD-005",
+            "instrumentId": "INST-001",
+            "instrumentName": "Government Bond 2030",
+            "units": 150.0,
+            "averageCost": 990.0,
+            "currentValue": 157500.0,
+            "gainLoss": 9000.0,
+            "gainLossPercent": 0.061
+          },
+          {
+            "holdingId": "HOLD-006",
+            "instrumentId": "INST-005",
+            "instrumentName": "ZESCO Corporate Bond 2028",
+            "units": 80.0,
+            "averageCost": 1000.0,
+            "currentValue": 81600.0,
+            "gainLoss": 1600.0,
+            "gainLossPercent": 0.02
+          },
+          {
+            "holdingId": "HOLD-007",
+            "instrumentId": "INST-004",
+            "instrumentName": "Copperbelt Energy Corp Equity",
+            "units": 8000.0,
+            "averageCost": 11.20,
+            "currentValue": 99200.0,
+            "gainLoss": 9600.0,
+            "gainLossPercent": 0.107
+          }
+        ]
+      }
+    ],
+    "goals": [
+      {
+        "goalId": "GOAL-003",
+        "type": "Retirement",
+        "customName": "Early Retirement Fund",
+        "targetAmount": 2000000.0,
+        "currentAmount": 350000.0,
+        "targetDate": "2038-12-31T00:00:00Z",
+        "monthlyContribution": 5000.0,
+        "priority": "High",
+        "isActive": true,
+        "progressPercentage": 0.175
+      },
+      {
+        "goalId": "GOAL-004",
+        "type": "Property",
+        "customName": "Investment Property",
+        "targetAmount": 800000.0,
+        "currentAmount": 200000.0,
+        "targetDate": "2028-06-30T00:00:00Z",
+        "monthlyContribution": 8000.0,
+        "priority": "Medium",
+        "isActive": true,
+        "progressPercentage": 0.25
+      }
+    ]
+  },
+  {
+    "investorId": "INV-004",
+    "nrc": "567890/45/1",
+    "fullName": "Thandiwe Lungu",
+    "dateOfBirth": "1995-02-28T00:00:00Z",
+    "email": "thandiwe.lungu@gmail.com",
+    "phoneNumber": "+260944567890",
+    "mobileMoneyNumber": "+260944567890",
+    "residentialAddress": "8 Cairo Road, Lusaka",
+    "registrationDate": "2024-01-08T00:00:00Z",
+    "kycStatus": "Approved",
+    "isActive": true,
+    "accounts": [
+      {
+        "accountId": "ACC-004",
+        "type": "Individual",
+        "currency": "ZMW",
+        "balance": 32000.0,
+        "openedDate": "2024-01-08T00:00:00Z",
+        "status": "Active",
+        "holdings": [
+          {
+            "holdingId": "HOLD-008",
+            "instrumentId": "INST-008",
+            "instrumentName": "Zambia Growth Mutual Fund",
+            "units": 1500.0,
+            "averageCost": 14.80,
+            "currentValue": 22950.0,
+            "gainLoss": 750.0,
+            "gainLossPercent": 0.034
+          }
+        ]
+      }
+    ],
+    "goals": [
+      {
+        "goalId": "GOAL-005",
+        "type": "Emergency",
+        "customName": "Emergency Fund",
+        "targetAmount": 100000.0,
+        "currentAmount": 32000.0,
+        "targetDate": "2026-12-31T00:00:00Z",
+        "monthlyContribution": 2500.0,
+        "priority": "High",
+        "isActive": true,
+        "progressPercentage": 0.32
+      }
+    ]
+  }
+]

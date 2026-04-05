@@ -1,0 +1,107 @@
+[
+  {
+    "entityId": "PS-001",
+    "name": "Zambia Breweries Plc",
+    "industry": "Manufacturing",
+    "sizeCategory": "Large",
+    "registrationNumber": "REG-10234",
+    "registrationDate": "1968-03-15T00:00:00Z",
+    "employees": 1200,
+    "annualRevenue": 2500000000.0,
+    "isWomanOwned": false,
+    "isYouthOwned": false,
+    "exportOriented": true,
+    "leadership": {
+      "ceo": {
+        "name": "Mukuka Chipanta",
+        "appointedDate": "2020-01-15T00:00:00Z",
+        "qualifications": "MBA, BSc Food Technology",
+        "experience": "18 years in FMCG manufacturing"
+      }
+    }
+  },
+  {
+    "entityId": "PS-002",
+    "name": "Lubambe Copper Mines",
+    "industry": "Mining",
+    "sizeCategory": "Large",
+    "registrationNumber": "REG-20456",
+    "registrationDate": "2010-06-01T00:00:00Z",
+    "employees": 2800,
+    "annualRevenue": 4200000000.0,
+    "isWomanOwned": false,
+    "isYouthOwned": false,
+    "exportOriented": true,
+    "leadership": {
+      "ceo": {
+        "name": "Jackson Sikamo",
+        "appointedDate": "2018-09-01T00:00:00Z",
+        "qualifications": "MSc Mining Engineering",
+        "experience": "22 years in mining operations"
+      }
+    }
+  },
+  {
+    "entityId": "PS-003",
+    "name": "Neelkanth Fresh Produce",
+    "industry": "Agriculture",
+    "sizeCategory": "Medium",
+    "registrationNumber": "REG-30789",
+    "registrationDate": "2012-04-20T00:00:00Z",
+    "employees": 380,
+    "annualRevenue": 180000000.0,
+    "isWomanOwned": true,
+    "isYouthOwned": false,
+    "exportOriented": true,
+    "leadership": {
+      "ceo": {
+        "name": "Namukolo Chibomba",
+        "appointedDate": "2012-04-20T00:00:00Z",
+        "qualifications": "BSc Agriculture, Diploma Export Management",
+        "experience": "12 years in agribusiness"
+      }
+    }
+  },
+  {
+    "entityId": "PS-004",
+    "name": "Lusaka Digital Solutions",
+    "industry": "Technology",
+    "sizeCategory": "Small",
+    "registrationNumber": "REG-41023",
+    "registrationDate": "2019-08-15T00:00:00Z",
+    "employees": 45,
+    "annualRevenue": 15000000.0,
+    "isWomanOwned": false,
+    "isYouthOwned": true,
+    "exportOriented": false,
+    "leadership": {
+      "ceo": {
+        "name": "Kelvin Mwape",
+        "appointedDate": "2019-08-15T00:00:00Z",
+        "qualifications": "BSc Computer Science",
+        "experience": "8 years in software development"
+      }
+    }
+  },
+  {
+    "entityId": "PS-005",
+    "name": "Choma Livestock Trading",
+    "industry": "Agriculture",
+    "sizeCategory": "Medium",
+    "registrationNumber": "REG-50345",
+    "registrationDate": "2005-02-10T00:00:00Z",
+    "employees": 150,
+    "annualRevenue": 95000000.0,
+    "isWomanOwned": false,
+    "isYouthOwned": false,
+    "exportOriented": false,
+    "leadership": {
+      "ceo": {
+        "name": "Moses Hamusonde",
+        "appointedDate": "2005-02-10T00:00:00Z",
+        "qualifications": "Diploma Animal Husbandry",
+        "experience": "25 years in livestock farming"
+      }
+    }
+  }
+]

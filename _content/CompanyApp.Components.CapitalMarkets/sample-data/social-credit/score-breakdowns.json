@@ -1,0 +1,59 @@
+{
+  "SOE-ZM-ZESCO-001": {
+    "entityId": "SOE-ZM-ZESCO-001",
+    "overallScore": 745,
+    "tier": "A",
+    "components": [
+      {
+        "category": "Financial Performance",
+        "weight": 0.25,
+        "score": 72,
+        "maxScore": 100,
+        "weightedScore": 18
+      },
+      {
+        "category": "Operational Efficiency",
+        "weight": 0.20,
+        "score": 68,
+        "maxScore": 100,
+        "weightedScore": 13.6
+      },
+      {
+        "category": "Public Service Mandate",
+        "weight": 0.20,
+        "score": 75,
+        "maxScore": 100,
+        "weightedScore": 15
+      }
+    ],
+    "recentEvents": [
+      {
+        "eventDate": "2025-12-15",
+        "type": "AuditCleared",
+        "description": "Annual audit completed with unqualified opinion",
+        "scoreImpact": 5
+      }
+    ]
+  },
+  "PSE-MFG-001": {
+    "entityId": "PSE-MFG-001",
+    "overallScore": 725,
+    "tier": "A",
+    "components": [
+      {
+        "category": "Financial Credibility",
+        "weight": 0.25,
+        "score": 70,
+        "maxScore": 100,
+        "weightedScore": 17.5
+      },
+      {
+        "category": "Contractual Performance",
+        "weight": 0.20,
+        "score": 78,
+        "maxScore": 100,
+        "weightedScore": 15.6
+      }
+    ]
+  }
+}

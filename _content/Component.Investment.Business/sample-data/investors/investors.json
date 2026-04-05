@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "John Mwale",
+    "email": "john.mwale@email.zm",
+    "phone": "+260 977 111222",
+    "type": "Individual",
+    "country": "Zambia",
+    "kycStatus": "Verified",
+    "kycDate": "2024-01-15T00:00:00",
+    "registrationDate": "2023-12-01T00:00:00",
+    "portfolioValue": 250000,
+    "investmentCount": 3,
+    "riskTolerance": "Moderate",
+    "preferredSectors": ["Agriculture", "Manufacturing", "Retail"]
+  },
+  {
+    "id": 2,
+    "name": "Sarah Banda",
+    "email": "sarah.banda@email.zm",
+    "phone": "+260 966 222333",
+    "type": "Individual",
+    "country": "Zambia",
+    "kycStatus": "Verified",
+    "kycDate": "2024-01-10T00:00:00",
+    "registrationDate": "2023-11-15T00:00:00",
+    "portfolioValue": 500000,
+    "investmentCount": 5,
+    "riskTolerance": "Conservative",
+    "preferredSectors": ["Agriculture", "Furniture", "Clothing"]
+  },
+  {
+    "id": 3,
+    "name": "Michael Phiri (Diaspora)",
+    "email": "michael.phiri@email.uk",
+    "phone": "+44 7700 900123",
+    "type": "Diaspora",
+    "country": "United Kingdom",
+    "kycStatus": "Verified",
+    "kycDate": "2024-01-05T00:00:00",
+    "registrationDate": "2023-10-01T00:00:00",
+    "portfolioValue": 1500000,
+    "investmentCount": 8,
+    "riskTolerance": "Aggressive",
+    "preferredSectors": ["Mining", "Manufacturing", "Agriculture", "Technology"]
+  },
+  {
+    "id": 4,
+    "name": "Zambia Development Fund",
+    "email": "info@zdf.zm",
+    "phone": "+260 211 123456",
+    "type": "Institutional",
+    "country": "Zambia",
+    "kycStatus": "Verified",
+    "kycDate": "2023-12-20T00:00:00",
+    "registrationDate": "2023-09-01T00:00:00",
+    "portfolioValue": 10000000,
+    "investmentCount": 25,
+    "riskTolerance": "Moderate",
+    "preferredSectors": ["Infrastructure", "Manufacturing", "Agriculture", "Mining"]
+  }
+]

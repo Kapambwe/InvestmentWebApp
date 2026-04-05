@@ -1,0 +1,23 @@
+[
+  {
+    "workflowId": "WF-001",
+    "name": "Late Disclosure Penalty",
+    "trigger": 1,
+    "isActive": true,
+    "steps": [
+      { "sequence": 1, "actionType": "IssueWarning", "description": "Send automated grace period notice via DID-signed portal." },
+      { "sequence": 2, "actionType": "ApplyPenalty", "description": "Auto-calculate and issue a 2% market cap penalty." },
+      { "sequence": 3, "actionType": "UpdateSocialCredit", "description": "Reduce Social Credit score by 25 points." }
+    ]
+  },
+  {
+    "workflowId": "WF-002",
+    "name": "Market Manipulation Freeze",
+    "trigger": 0,
+    "isActive": true,
+    "steps": [
+      { "sequence": 1, "actionType": "FlagForHuman", "description": "Immediately alert lead market inspector." },
+      { "sequence": 2, "actionType": "FreezeTrading", "description": "Apply temporary trading halt for 4 hours." }
+    ]
+  }
+]
