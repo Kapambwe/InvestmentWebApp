@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,17 +10,6 @@
     <base href="/InvestmentWebApp/" />
 
     <!-- Single Page App routing for GitHub Pages -->
-    <script type="text/javascript">
-        (function(l) {
-            if (l.search[1] === '/') {
-                var decoded = l.search.slice(1).split('&').map(function(s) {
-                    return s.replace(/~and~/g, '&');
-                }).join('?');
-                window.history.replaceState(null, null,
-                    l.pathname.slice(0, -1) + decoded + l.hash);
-            }
-        }(window.location));
-    </script>
 
     <!-- Defer non-critical CSS to avoid blocking first paint -->
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" media="print" onload="this.media='all'">
@@ -48,7 +37,7 @@
     <div id="blazor-error-ui">
         An unhandled error has occurred.
         <a href="." class="reload">Reload</a>
-        <span class="dismiss">🗙</span>
+        <span class="dismiss">ðŸ—™</span>
     </div>
 
     <!-- Load Blazor and Radzen scripts dynamically to respect the base path -->

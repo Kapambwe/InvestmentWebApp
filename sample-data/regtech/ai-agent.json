@@ -1,8 +1,0 @@
-{
-  "agentId": "SEC-AI-9000",
-  "name": "Sentinel Regulator v1.0",
-  "status": "Active",
-  "confidenceThreshold": 0.92,
-  "actionsTakenToday": 42,
-  "monitoredSectors": [ "Capital Markets", "Energy", "Mining", "SMEs" ]
-}
