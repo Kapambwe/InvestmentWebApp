@@ -1,23 +1,18 @@
 [
   {
-    "entityId": "PS-812",
-    "entityName": "Horizon Mining Contractors Ltd",
-    "reason": "Tax evasion and fraudulent financial reporting",
-    "blacklistedDate": "2023-04-15T00:00:00Z",
-    "expiryDate": "2026-04-15T00:00:00Z"
+    "entityId": "PSE-MFG-019",
+    "name": "Copperbelt Tools Ltd",
+    "entityType": "MediumEnterprise",
+    "score": 382,
+    "reason": "Repeated tax defaults and regulatory violations",
+    "blacklistedAt": "2025-10-12T00:00:00Z"
   },
   {
-    "entityId": "PS-645",
-    "entityName": "Greenfield Agro Exports",
-    "reason": "Environmental violations and non-compliance with EIA requirements",
-    "blacklistedDate": "2023-09-01T00:00:00Z",
-    "expiryDate": "2025-09-01T00:00:00Z"
-  },
-  {
-    "entityId": "PS-923",
-    "entityName": "Fasttrack Construction Services",
-    "reason": "Breach of procurement regulations and bribery of public officials",
-    "blacklistedDate": "2024-02-20T00:00:00Z",
-    "expiryDate": "2027-02-20T00:00:00Z"
+    "entityId": "SOE-ZM-RAIL-004",
+    "name": "National Rail Services",
+    "entityType": "SOE",
+    "score": 395,
+    "reason": "Contract breaches and audit qualification",
+    "blacklistedAt": "2025-08-28T00:00:00Z"
   }
 ]

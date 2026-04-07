@@ -1,149 +1,108 @@
 [
   {
-    "soeId": "SOE-001",
-    "name": "Zambia Electricity Supply Corporation",
-    "acronym": "ZESCO",
+    "soeId": "SOE-ZM-ZESCO-001",
+    "legalName": "Zambia Electricity Supply Corporation Limited",
+    "tradingName": "ZESCO",
+    "shortName": "ZESCO",
+    "category": "Strategic",
+    "classification": "CorporatizedSOE",
     "sector": "Energy",
-    "category": "Strategic",
-    "description": "National electricity generation, transmission and distribution utility",
-    "establishedDate": "1970-01-01T00:00:00Z",
-    "employees": 5200,
-    "annualRevenue": 8500000000.0,
-    "totalAssets": 25000000000.0,
-    "website": "https://www.zesco.co.zm",
+    "subSector": "Power Generation and Distribution",
+    "parentMinistry": "Ministry of Energy",
+    "supervisingAuthority": "Industrial Development Corporation",
+    "governmentOwnership": 1.0,
+    "enablingAct": "ZESCO Act Cap 137",
+    "incorporationDate": "1970-01-01",
+    "status": "FullyOperational",
+    "financialProfile": {
+      "totalAssets": 45000000000,
+      "totalRevenue": 12000000000,
+      "netIncome": 800000000,
+      "ebitda": 3500000000,
+      "totalDebt": 15000000000,
+      "equity": 20000000000,
+      "debtToEquity": 0.75,
+      "dscr": 1.45,
+      "roe": 0.04,
+      "operatingMargin": 0.29
+    },
+    "operationalProfile": {
+      "capacityUtilization": 0.78,
+      "systemLosses": 0.17,
+      "serviceCoverage": 0.31,
+      "customerSatisfaction": 0.65,
+      "employeeCount": 8500,
+      "sectorKPIs": {
+        "installedCapacityMW": 3200,
+        "peakDemandMW": 2800,
+        "generationGWh": 15000,
+        "customerCount": 850000
+      }
+    },
     "leadership": {
-      "ceo": {
-        "name": "Victor Mapani",
-        "appointedDate": "2021-06-01T00:00:00Z",
-        "qualifications": "MBA, BSc Electrical Engineering",
-        "experience": "22 years in energy sector"
+      "board": {
+        "chairman": {
+          "directorId": "DIR-001",
+          "fullName": "Dr. Emmanuel Mulenga",
+          "nrc": "123456/78/1",
+          "type": "NonExecutive",
+          "appointmentDate": "2022-01-15",
+          "qualifications": "PhD Economics, MBA Finance"
+        },
+        "totalMembers": 9,
+        "independentMembers": 4
       },
-      "boardChair": {
-        "name": "Vickson Ncube",
-        "appointedDate": "2020-03-15T00:00:00Z"
-      },
-      "boardMembers": [
-        { "name": "Alice Lungu", "role": "Board Member", "appointedDate": "2021-01-15T00:00:00Z" },
-        { "name": "Peter Mwaba", "role": "Board Member", "appointedDate": "2021-01-15T00:00:00Z" },
-        { "name": "Grace Tembo", "role": "Board Member", "appointedDate": "2022-06-01T00:00:00Z" }
-      ]
+      "executives": {
+        "ceo": {
+          "executiveId": "EXE-001",
+          "fullName": "Victor Mapani",
+          "nrc": "234567/89/1",
+          "position": "Managing Director",
+          "role": "ChiefExecutiveOfficer",
+          "appointmentDate": "2021-06-01",
+          "yearsExperience": 25,
+          "qualifications": "MSc Electrical Engineering, MBA"
+        },
+        "cfo": {
+          "executiveId": "EXE-002",
+          "fullName": "Patricia Banda",
+          "nrc": "345678/90/1",
+          "position": "Chief Financial Officer",
+          "appointmentDate": "2020-03-15",
+          "qualifications": "ACCA, MBA Finance"
+        }
+      }
+    },
+    "socialCreditScore": {
+      "overallScore": 745,
+      "tier": "A",
+      "accessLevel": "StandardAccess"
     }
   },
   {
-    "soeId": "SOE-002",
-    "name": "Zambia Telecommunications Company",
-    "acronym": "ZAMTEL",
-    "sector": "Telecommunications",
-    "category": "Strategic",
-    "description": "National telecommunications provider offering fixed-line, mobile and internet services",
-    "establishedDate": "1994-02-01T00:00:00Z",
-    "employees": 1800,
-    "annualRevenue": 3200000000.0,
-    "totalAssets": 8500000000.0,
-    "website": "https://www.zamtel.co.zm",
-    "leadership": {
-      "ceo": {
-        "name": "Sydney Mupeta",
-        "appointedDate": "2022-01-15T00:00:00Z",
-        "qualifications": "MSc Telecommunications, MBA",
-        "experience": "18 years in telecoms industry"
-      },
-      "boardChair": {
-        "name": "Mubanga Kashoki",
-        "appointedDate": "2021-09-01T00:00:00Z"
-      },
-      "boardMembers": [
-        { "name": "Chilufya Banda", "role": "Board Member", "appointedDate": "2021-09-01T00:00:00Z" },
-        { "name": "Bwalya Mwansa", "role": "Board Member", "appointedDate": "2022-03-01T00:00:00Z" }
-      ]
-    }
-  },
-  {
-    "soeId": "SOE-003",
-    "name": "Zambia Railways Limited",
-    "acronym": "ZRL",
-    "sector": "Transport",
-    "category": "Commercial",
-    "description": "National railway operator providing freight and passenger rail services",
-    "establishedDate": "2003-10-01T00:00:00Z",
-    "employees": 2400,
-    "annualRevenue": 1800000000.0,
-    "totalAssets": 12000000000.0,
-    "website": "https://www.zrl.com.zm",
-    "leadership": {
-      "ceo": {
-        "name": "Christopher Musonda",
-        "appointedDate": "2020-08-01T00:00:00Z",
-        "qualifications": "MSc Transport Management, BCom",
-        "experience": "15 years in transport and logistics"
-      },
-      "boardChair": {
-        "name": "Mwila Kazunga",
-        "appointedDate": "2020-04-01T00:00:00Z"
-      },
-      "boardMembers": [
-        { "name": "Josephine Mapoma", "role": "Board Member", "appointedDate": "2020-04-01T00:00:00Z" },
-        { "name": "Henry Sinkala", "role": "Board Member", "appointedDate": "2021-07-01T00:00:00Z" }
-      ]
-    }
-  },
-  {
-    "soeId": "SOE-004",
-    "name": "Zambia National Building Society",
-    "acronym": "ZNBS",
+    "soeId": "SOE-ZM-DBZ-001",
+    "legalName": "Development Bank of Zambia",
+    "tradingName": "DBZ",
+    "shortName": "DBZ",
+    "category": "Financial",
     "sector": "Financial Services",
-    "category": "Commercial",
-    "description": "National building society providing mortgage finance and savings products",
-    "establishedDate": "1970-07-01T00:00:00Z",
-    "employees": 650,
-    "annualRevenue": 950000000.0,
-    "totalAssets": 4500000000.0,
-    "website": "https://www.znbs.co.zm",
+    "subSector": "Development Banking",
+    "parentMinistry": "Ministry of Finance",
+    "governmentOwnership": 1.0,
+    "status": "FullyOperational",
     "leadership": {
-      "ceo": {
-        "name": "Mizinga Melu",
-        "appointedDate": "2019-11-01T00:00:00Z",
-        "qualifications": "MBA, ACCA",
-        "experience": "20 years in financial services"
-      },
-      "boardChair": {
-        "name": "Samuel Miti",
-        "appointedDate": "2019-06-01T00:00:00Z"
-      },
-      "boardMembers": [
-        { "name": "Florence Chikwekwe", "role": "Board Member", "appointedDate": "2020-01-15T00:00:00Z" },
-        { "name": "David Phiri", "role": "Board Member", "appointedDate": "2020-01-15T00:00:00Z" }
-      ]
-    }
-  },
-  {
-    "soeId": "SOE-005",
-    "name": "Industrial Development Corporation",
-    "acronym": "IDC",
-    "sector": "Investment",
-    "category": "Strategic",
-    "description": "State holding company managing government investments in commercial enterprises",
-    "establishedDate": "2014-01-20T00:00:00Z",
-    "employees": 320,
-    "annualRevenue": 15000000000.0,
-    "totalAssets": 85000000000.0,
-    "website": "https://www.idc.co.zm",
-    "leadership": {
-      "ceo": {
-        "name": "Mateyo Kaluba",
-        "appointedDate": "2021-04-01T00:00:00Z",
-        "qualifications": "PhD Economics, MBA",
-        "experience": "25 years in investment management"
-      },
-      "boardChair": {
-        "name": "Mukwandi Chibesakunda",
-        "appointedDate": "2021-01-01T00:00:00Z"
-      },
-      "boardMembers": [
-        { "name": "Monde Kabwela", "role": "Board Member", "appointedDate": "2021-01-01T00:00:00Z" },
-        { "name": "Kalima Nkonde", "role": "Board Member", "appointedDate": "2021-01-01T00:00:00Z" },
-        { "name": "Ruth Simumba", "role": "Board Member", "appointedDate": "2022-06-01T00:00:00Z" }
-      ]
+      "executives": {
+        "ceo": {
+          "fullName": "Samuel Mundia Sikaulu",
+          "position": "Managing Director",
+          "yearsExperience": 20
+        }
+      }
+    },
+    "socialCreditScore": {
+      "overallScore": 812,
+      "tier": "AA",
+      "accessLevel": "FullAccess"
     }
   }
 ]

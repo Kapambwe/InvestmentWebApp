@@ -1,7 +1,7 @@
 [
-  { "rating": "AAA", "count": 3, "percentage": 0.086 },
-  { "rating": "AA", "count": 8, "percentage": 0.229 },
-  { "rating": "A", "count": 10, "percentage": 0.286 },
-  { "rating": "BBB", "count": 9, "percentage": 0.257 },
-  { "rating": "BB", "count": 5, "percentage": 0.143 }
+  { "tier": "AAA", "count": 2 },
+  { "tier": "AA", "count": 4 },
+  { "tier": "A", "count": 3 },
+  { "tier": "BBB", "count": 2 },
+  { "tier": "BB", "count": 1 }
 ]
