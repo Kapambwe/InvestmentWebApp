@@ -1,0 +1,59 @@
+[
+  {
+    "ContractId": "CTR-001",
+    "ContractNumber": "PPP-CTR-2025-001",
+    "ProjectId": "PPP-001",
+    "Title": "Lusaka East Road Upgrade Contract",
+    "Type": 1,
+    "Sector": 0,
+    "GrantorId": "AUTH-01",
+    "GrantorName": "Ministry of Infrastructure",
+    "ContractorId": "CON-001",
+    "ContractorName": "ZamBuild JV",
+    "SubcontractorIds": ["SUB-01"],
+    "TotalValue": 200000000.0,
+    "Currency": "ZMW",
+    "SigningDate": "2025-09-15T00:00:00Z",
+    "EffectiveDate": "2025-10-01T00:00:00Z",
+    "ContractEndDate": "2028-10-01T00:00:00Z",
+    "DurationMonths": 36,
+    "PaymentStructure": {
+      "Type": 4,
+      "Schedule": "Milestone",
+      "FixedComponent": 0.7,
+      "VariableComponent": 0.3,
+      "Conditions": [
+        { "ConditionId": "COND-001", "Description": "Independent verification" }
+      ]
+    },
+    "PaymentMilestones": [
+      {
+        "MilestoneId": "MS-001",
+        "Description": "Earthworks complete",
+        "Amount": 42000000.0,
+        "Percentage": 0.21,
+        "DueDate": "2025-12-20T00:00:00Z",
+        "Status": 4,
+        "PaymentDate": "2026-01-20T00:00:00Z",
+        "PaymentReference": "PMT-001",
+        "RequiredDeliverables": ["GPS logs", "Compaction tests"],
+        "IndependentVerificationRequired": true
+      }
+    ],
+    "AdvancePaymentPercent": 0.1,
+    "RetentionPercent": 0.05,
+    "KPIs": [
+      { "KPIId": "KPI-01", "Name": "On-time delivery", "Target": 0.9, "Actual": 0.88 }
+    ],
+    "CurrentProgress": 0.4,
+    "Status": 1,
+    "TotalPaid": 42000000.0,
+    "PendingPayment": 5000000.0,
+    "RetentionHeld": 2100000.0,
+    "Variations": [],
+    "Claims": [],
+    "Disputes": [],
+    "IsCapitalMarketEligible": true,
+    "LinkedInstrumentIds": ["WBU-001", "BOND-001"]
+  }
+]

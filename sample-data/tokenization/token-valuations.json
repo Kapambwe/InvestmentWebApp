@@ -1,0 +1,68 @@
+{
+  "TKN-20260125-0001": {
+    "tokenId": "TKN-20260125-0001",
+    "fairValue": 950.00,
+    "marketValue": 975.00,
+    "accruedInterest": 25.00,
+    "riskAdjustment": -50.00,
+    "netPresentValue": 925.00,
+    "valuationDate": "2026-01-25T00:00:00Z",
+    "valuationMethod": "Discounted Cash Flow",
+    "adjustments": [
+      {
+        "factor": "Counterparty Risk",
+        "impact": -25.00,
+        "rationale": "UAE buyer concentration"
+      },
+      {
+        "factor": "FX Risk",
+        "impact": -25.00,
+        "rationale": "USD/ZMW volatility"
+      }
+    ]
+  },
+  "TKN-20260125-0002": {
+    "tokenId": "TKN-20260125-0002",
+    "fairValue": 4800.00,
+    "marketValue": 4850.00,
+    "accruedInterest": 125.00,
+    "riskAdjustment": -200.00,
+    "netPresentValue": 4725.00,
+    "valuationDate": "2026-01-25T00:00:00Z",
+    "valuationMethod": "Yield Curve Model",
+    "adjustments": [
+      {
+        "factor": "Credit Risk",
+        "impact": -100.00,
+        "rationale": "SME cluster default probability"
+      },
+      {
+        "factor": "Liquidity Risk",
+        "impact": -100.00,
+        "rationale": "Limited secondary market"
+      }
+    ]
+  },
+  "TKN-20260125-0003": {
+    "tokenId": "TKN-20260125-0003",
+    "fairValue": 475.00,
+    "marketValue": 480.00,
+    "accruedInterest": 5.00,
+    "riskAdjustment": -25.00,
+    "netPresentValue": 455.00,
+    "valuationDate": "2026-01-25T00:00:00Z",
+    "valuationMethod": "Commodity Price Model",
+    "adjustments": [
+      {
+        "factor": "Storage Risk",
+        "impact": -15.00,
+        "rationale": "Warehouse deterioration risk"
+      },
+      {
+        "factor": "Price Volatility",
+        "impact": -10.00,
+        "rationale": "Maize price fluctuation"
+      }
+    ]
+  }
+}

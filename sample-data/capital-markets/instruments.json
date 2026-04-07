@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "ZSMEG",
+    "name": "Zambia SME Growth ETF",
+    "type": "ETF",
+    "price": 125.60,
+    "change": 0.012,
+    "volume": 125000
+  },
+  {
+    "symbol": "ZMBND",
+    "name": "Municipal Bond Basket",
+    "type": "Bond",
+    "price": 102.15,
+    "change": -0.004,
+    "volume": 45300
+  },
+  {
+    "symbol": "AGRX",
+    "name": "Agri Export Equity",
+    "type": "Equity",
+    "price": 78.42,
+    "change": 0.006,
+    "volume": 88000
+  },
+  {
+    "symbol": "MINX",
+    "name": "Mining Supply Chain Index",
+    "type": "Equity",
+    "price": 54.33,
+    "change": -0.009,
+    "volume": 61200
+  },
+  {
+    "symbol": "SMEB1",
+    "name": "SME Bond Series 2026-A",
+    "type": "Bond",
+    "price": 99.70,
+    "change": 0.002,
+    "volume": 21000
+  }
+]

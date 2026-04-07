@@ -1,0 +1,8 @@
+[
+  { "sector": "Manufacturing", "allocation": 0.27 },
+  { "sector": "Agriculture", "allocation": 0.22 },
+  { "sector": "Retail", "allocation": 0.18 },
+  { "sector": "Mining", "allocation": 0.15 },
+  { "sector": "Logistics", "allocation": 0.10 },
+  { "sector": "Services", "allocation": 0.08 }
+]

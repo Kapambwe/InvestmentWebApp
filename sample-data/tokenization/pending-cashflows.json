@@ -1,0 +1,44 @@
+[
+  {
+    "cashFlowId": "CF-PENDING-001",
+    "tokenId": "TKN-20260125-0001",
+    "eventType": "ExportProceeds",
+    "grossAmount": 75000.00,
+    "netAmount": 71250.00,
+    "currency": "ZMW",
+    "eventDate": "2026-01-30T00:00:00Z",
+    "status": "Expected",
+    "signerDID": "",
+    "externalReference": "EXP-PENDING-001",
+    "evidenceHash": "",
+    "createdAt": "2026-01-25T00:00:00Z"
+  },
+  {
+    "cashFlowId": "CF-PENDING-002",
+    "tokenId": "TKN-20260125-0002",
+    "eventType": "Coupon",
+    "grossAmount": 2500.00,
+    "netAmount": 2375.00,
+    "currency": "ZMW",
+    "eventDate": "2026-02-15T00:00:00Z",
+    "status": "Expected",
+    "signerDID": "",
+    "externalReference": "COUPON-Q2-2026",
+    "evidenceHash": "",
+    "createdAt": "2026-01-25T00:00:00Z"
+  },
+  {
+    "cashFlowId": "CF-DISPUTED-001",
+    "tokenId": "TKN-20260125-0003",
+    "eventType": "DeliveryPayment",
+    "grossAmount": 8000.00,
+    "netAmount": 7600.00,
+    "currency": "ZMW",
+    "eventDate": "2026-01-23T00:00:00Z",
+    "status": "Disputed",
+    "signerDID": "did:zambia:warehouse:lusaka001",
+    "externalReference": "DELIVERY-DISPUTED-001",
+    "evidenceHash": "0x890abcdef1234567",
+    "createdAt": "2026-01-23T00:00:00Z"
+  }
+]

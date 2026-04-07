@@ -1,0 +1,137 @@
+[
+  {
+    "entityId": "PSE-MFG-001",
+    "registrationNumber": "ZM-REG-2018-45678",
+    "taxId": "TPIN-1234567890",
+    "name": "Kalingalinga Furniture Cooperative",
+    "tradingName": "KFC Furniture",
+    "type": "Cooperative",
+    "sizeCategory": "Small",
+    "industry": "Manufacturing",
+    "subIndustry": "Furniture Making",
+    "province": "Lusaka",
+    "district": "Lusaka",
+    "status": "Active",
+    "isWomanOwned": false,
+    "isYouthOwned": true,
+    "isCooperative": true,
+    "cooperativeMembers": 45,
+    "financialProfile": {
+      "annualRevenue": 2500000,
+      "grossProfit": 875000,
+      "netProfit": 300000,
+      "grossMargin": 0.35,
+      "netMargin": 0.12
+    },
+    "operationalProfile": {
+      "employeeCount": 45,
+      "femaleEmployees": 12,
+      "youthEmployees": 28,
+      "manufacturingMetrics": {
+        "unitsProduced": 2400,
+        "capacityUtilization": 0.72,
+        "machineUptime": 0.88,
+        "defectRate": 0.03,
+        "inventoryTurnover": 6.5,
+        "orderFulfillmentRate": 0.92,
+        "productCategory": "Furniture"
+      }
+    },
+    "leadership": {
+      "ownership": {
+        "shareholders": [
+          {
+            "name": "Cooperative Members",
+            "type": "Cooperative",
+            "sharePercentage": 100
+          }
+        ],
+        "isCooperative": true,
+        "cooperativeMembers": 45
+      },
+      "management": {
+        "generalManager": {
+          "managerId": "MGR-001",
+          "fullName": "Joseph Mwanza",
+          "nrc": "456789/01/1",
+          "position": "General Manager",
+          "education": "Diploma Business Management",
+          "yearsExperience": 15
+        },
+        "financeManager": {
+          "fullName": "Grace Tembo",
+          "position": "Finance Manager",
+          "education": "ZICA Licentiate"
+        }
+      }
+    },
+    "socialCreditScore": {
+      "overallScore": 725,
+      "tier": "A",
+      "accessLevel": "StandardAccess"
+    },
+    "capitalMarketAccess": "StandardAccess"
+  },
+  {
+    "entityId": "PSE-AGR-001",
+    "name": "Mkushi Fresh Farms Ltd",
+    "type": "PrivateLimitedCompany",
+    "sizeCategory": "Medium",
+    "industry": "Agriculture",
+    "subIndustry": "Crop Farming",
+    "province": "Central",
+    "district": "Mkushi",
+    "status": "Active",
+    "isWomanOwned": true,
+    "isYouthOwned": false,
+    "operationalProfile": {
+      "employeeCount": 85,
+      "agriculturalMetrics": {
+        "hectaresPlanted": 500,
+        "yieldPerHectare": 8.5,
+        "irrigatedPercentage": 0.80,
+        "cropTypes": ["Maize", "Soybeans", "Wheat"],
+        "offtakeContractCoverage": 0.75,
+        "agroEcologicalZone": "Zone IIa"
+      }
+    },
+    "leadership": {
+      "ownership": {
+        "shareholders": [
+          {
+            "name": "Elizabeth Chanda",
+            "type": "Individual",
+            "sharePercentage": 60,
+            "isControlling": true
+          },
+          {
+            "name": "Chanda Family Trust",
+            "type": "Family",
+            "sharePercentage": 40
+          }
+        ],
+        "isFamilyOwned": true
+      },
+      "management": {
+        "owner": {
+          "fullName": "Elizabeth Chanda",
+          "gender": "Female",
+          "age": 48,
+          "education": "BSc Agriculture, MBA",
+          "yearsInBusiness": 18,
+          "ownershipPercentage": 60,
+          "isActivelyManaging": true
+        },
+        "generalManager": {
+          "fullName": "Elizabeth Chanda",
+          "position": "Managing Director"
+        }
+      }
+    },
+    "socialCreditScore": {
+      "overallScore": 798,
+      "tier": "A",
+      "accessLevel": "StandardAccess"
+    }
+  }
+]

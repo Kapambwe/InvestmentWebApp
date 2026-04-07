@@ -1,0 +1,82 @@
+[
+  {
+    "ContractorId": "CON-001",
+    "RegistrationNumber": "REG-12345",
+    "TaxId": "TPIN-0001",
+    "Name": "ZamBuild JV",
+    "TradingName": "ZamBuild",
+    "Type": 1,
+    "Category": 0,
+    "SectorCapabilities": [0, 3],
+    "RegistrationStatus": 5,
+    "RegistrationDate": "2025-07-01T00:00:00Z",
+    "ApprovalDate": "2025-08-01T00:00:00Z",
+    "Licenses": [
+      { "LicenseId": "LIC-01", "LicenseType": "Construction", "IssuedDate": "2024-01-01T00:00:00Z", "ExpiryDate": "2027-01-01T00:00:00Z" }
+    ],
+    "Certifications": [
+      { "CertificationId": "CERT-01", "CertificationName": "ISO 9001", "IssuedDate": "2023-05-01T00:00:00Z", "ExpiryDate": "2026-05-01T00:00:00Z" }
+    ],
+    "FinancialProfile": {
+      "AnnualRevenue": 450000000.0,
+      "TotalAssets": 620000000.0,
+      "NetWorth": 180000000.0,
+      "WorkingCapital": 65000000.0,
+      "DebtToEquity": 0.4,
+      "CurrentRatio": 1.6,
+      "BankName": "Zanaco",
+      "BankReference": "REF-8899",
+      "AuditedStatements": [
+        { "Year": 2024, "Auditor": "Deloitte", "IssuedDate": "2025-03-01T00:00:00Z" }
+      ]
+    },
+    "BondingCapacity": {
+      "SingleProjectLimit": 120000000.0,
+      "AggregateLimit": 250000000.0,
+      "AvailableCapacity": 90000000.0,
+      "SuretyCompany": "National Surety",
+      "ValidUntil": "2026-12-31T00:00:00Z"
+    },
+    "PastProjects": [
+      {
+        "ProjectName": "Copperbelt Ring Road",
+        "ClientName": "Roads Authority",
+        "Sector": 0,
+        "ContractValue": 220000000.0,
+        "StartDate": "2022-01-01T00:00:00Z",
+        "CompletionDate": "2024-06-01T00:00:00Z",
+        "Outcome": 0,
+        "ReferenceContact": "Roads Authority PMO",
+        "PerformanceRating": 3
+      }
+    ],
+    "TotalContractValue": 620000000.0,
+    "YearsInBusiness": 12,
+    "Executives": [
+      { "Name": "Patrick Mwila", "Title": "CEO", "YearsExperience": 18 }
+    ],
+    "Ownership": {
+      "Description": "Joint venture",
+      "Stakes": [
+        { "OwnerName": "ZamBuild Holdings", "Percentage": 60.0 },
+        { "OwnerName": "InfraCapital", "Percentage": 40.0 }
+      ]
+    },
+    "SocialCreditScore": { "Score": 82.0, "Rating": "A", "LastUpdated": "2026-01-10T00:00:00Z" },
+    "PerformanceScore": {
+      "OverallScore": 82.0,
+      "OnTimeDeliveryScore": 78.0,
+      "QualityScore": 85.0,
+      "SafetyScore": 80.0,
+      "EnvironmentalScore": 79.0,
+      "FinancialStabilityScore": 83.0,
+      "Incidents": [],
+      "LastAssessmentDate": "2026-01-05T00:00:00Z"
+    },
+    "EligibilityStatus": 2,
+    "EligibleProjectTypes": ["Roads", "Buildings"],
+    "MaxContractValue": 150000000.0,
+    "ActiveContractIds": ["CTR-001"],
+    "CurrentContractExposure": 95000000.0
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "TKN-20260125-0001": [
+    {
+      "cashFlowId": "CF-001-001",
+      "tokenId": "TKN-20260125-0001",
+      "eventType": "ExportProceeds",
+      "grossAmount": 50000.00,
+      "netAmount": 47500.00,
+      "currency": "ZMW",
+      "eventDate": "2026-01-20T00:00:00Z",
+      "paymentDate": "2026-01-22T00:00:00Z",
+      "status": "Received",
+      "signerDID": "did:zambia:bank:standard",
+      "externalReference": "EXP-PAY-001",
+      "evidenceHash": "0xabcdef1234567890",
+      "createdAt": "2026-01-20T00:00:00Z"
+    },
+    {
+      "cashFlowId": "CF-001-002",
+      "tokenId": "TKN-20260125-0001",
+      "eventType": "RevenueShare",
+      "grossAmount": 30000.00,
+      "netAmount": 28500.00,
+      "currency": "ZMW",
+      "eventDate": "2026-01-25T00:00:00Z",
+      "status": "Expected",
+      "signerDID": "",
+      "externalReference": "",
+      "evidenceHash": "",
+      "createdAt": "2026-01-25T00:00:00Z"
+    }
+  ],
+  "TKN-20260125-0002": [
+    {
+      "cashFlowId": "CF-002-001",
+      "tokenId": "TKN-20260125-0002",
+      "eventType": "Coupon",
+      "grossAmount": 2500.00,
+      "netAmount": 2375.00,
+      "currency": "ZMW",
+      "eventDate": "2026-01-15T00:00:00Z",
+      "paymentDate": "2026-01-15T00:00:00Z",
+      "status": "Received",
+      "signerDID": "did:zambia:dbz:main",
+      "externalReference": "COUPON-Q1-2026",
+      "evidenceHash": "0x1234567890abcdef",
+      "createdAt": "2026-01-15T00:00:00Z"
+    }
+  ],
+  "TKN-20260125-0003": [
+    {
+      "cashFlowId": "CF-003-001",
+      "tokenId": "TKN-20260125-0003",
+      "eventType": "DeliveryPayment",
+      "grossAmount": 15000.00,
+      "netAmount": 14250.00,
+      "currency": "ZMW",
+      "eventDate": "2026-01-22T00:00:00Z",
+      "status": "Confirmed",
+      "signerDID": "did:zambia:warehouse:lusaka001",
+      "externalReference": "DELIVERY-001",
+      "evidenceHash": "0x567890abcdef1234",
+      "createdAt": "2026-01-22T00:00:00Z"
+    }
+  ]
+}

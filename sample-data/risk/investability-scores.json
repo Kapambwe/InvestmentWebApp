@@ -1,0 +1,28 @@
+[
+  {
+    "SMEId": "SME-001",
+    "SMEName": "GreenFields Foods",
+    "CompositeScore": 81.0,
+    "Tier": 0,
+    "OperationalResilienceScore": 80.0,
+    "RevenueQualityScore": 84.0,
+    "NetworkRiskScore": 78.0,
+    "FraudRiskScore": 90.0,
+    "Components": [
+      { "Name": "Operational", "Score": 80.0, "Weight": 0.3, "Notes": "Stable production" },
+      { "Name": "Revenue", "Score": 84.0, "Weight": 0.3, "Notes": "High invoice settlement" }
+    ],
+    "ValuationAdjustment": {
+      "BaseValuation": 12000000.0,
+      "RiskHaircut": 0.05,
+      "QualityPremium": 0.02,
+      "AdjustedValuation": 11640000.0,
+      "Factors": [
+        { "FactorName": "Supply chain concentration", "Impact": -0.03, "Direction": "Haircut", "Rationale": "Top buyer exposure" },
+        { "FactorName": "Governance premium", "Impact": 0.02, "Direction": "Premium", "Rationale": "Audited controls" }
+      ]
+    },
+    "EligibleInstruments": ["SME ETF", "Revenue Notes"],
+    "CalculatedAt": "2026-01-25T00:00:00Z"
+  }
+]

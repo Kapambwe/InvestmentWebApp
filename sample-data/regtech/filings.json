@@ -1,0 +1,22 @@
+[
+  {
+    "filingId": "FIL-001",
+    "entityId": "SOE-001",
+    "entityName": "ZESCO",
+    "type": 0,
+    "submissionDate": "2024-03-01T09:00:00Z",
+    "status": 2,
+    "reviewNotes": "Audited financial statements complete.",
+    "contentUrl": "#"
+  },
+  {
+    "filingId": "FIL-002",
+    "entityId": "PS-001",
+    "entityName": "ABC Manufacturing Ltd",
+    "type": 1,
+    "submissionDate": "2024-03-15T16:30:00Z",
+    "status": 1,
+    "reviewNotes": "Waiting for supplementary disclosure on supply chain risks.",
+    "contentUrl": "#"
+  }
+]

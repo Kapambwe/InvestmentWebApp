@@ -1,0 +1,73 @@
+{
+  "SOE-ZM-ZESCO-001": {
+    "scoreId": "SCS-SOE-001",
+    "entityId": "SOE-ZM-ZESCO-001",
+    "entityType": "SOE",
+    "overallScore": 745,
+    "tier": "A",
+    "accessLevel": "StandardAccess",
+    "calculatedAt": "2026-01-25T00:00:00Z",
+    "components": [
+      {
+        "category": "Financial Performance",
+        "weight": 0.25,
+        "score": 72,
+        "maxScore": 100,
+        "weightedScore": 18,
+        "metrics": [
+          { "name": "ROA", "value": 0.018, "benchmark": 0.03, "score": 60 },
+          { "name": "DSCR", "value": 1.45, "benchmark": 1.4, "score": 85 },
+          { "name": "Debt/Equity", "value": 0.75, "benchmark": 0.6, "score": 70 }
+        ]
+      },
+      {
+        "category": "Operational Efficiency",
+        "weight": 0.20,
+        "score": 68,
+        "maxScore": 100,
+        "weightedScore": 13.6,
+        "metrics": [
+          { "name": "System Losses", "value": 0.17, "benchmark": 0.12, "score": 55 },
+          { "name": "Capacity Utilization", "value": 0.78, "benchmark": 0.85, "score": 75 },
+          { "name": "Customer Satisfaction", "value": 0.65, "benchmark": 0.80, "score": 60 }
+        ]
+      },
+      {
+        "category": "Public Service Mandate",
+        "weight": 0.20,
+        "score": 75,
+        "maxScore": 100,
+        "weightedScore": 15
+      },
+      {
+        "category": "Compliance & Governance",
+        "weight": 0.20,
+        "score": 82,
+        "maxScore": 100,
+        "weightedScore": 16.4
+      },
+      {
+        "category": "Social Responsibility",
+        "weight": 0.15,
+        "score": 78,
+        "maxScore": 100,
+        "weightedScore": 11.7
+      }
+    ],
+    "recentEvents": [
+      {
+        "eventDate": "2025-12-15",
+        "type": "AuditCleared",
+        "description": "Annual audit completed with unqualified opinion",
+        "scoreImpact": 5
+      },
+      {
+        "eventDate": "2025-11-01",
+        "type": "EnvironmentalViolation",
+        "description": "Minor emissions threshold exceeded at Kafue plant",
+        "scoreImpact": -10,
+        "isResolved": true
+      }
+    ]
+  }
+}

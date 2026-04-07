@@ -1,0 +1,18 @@
+[
+  {
+    "entityId": "PSE-MFG-019",
+    "name": "Copperbelt Tools Ltd",
+    "entityType": "MediumEnterprise",
+    "score": 382,
+    "reason": "Repeated tax defaults and regulatory violations",
+    "blacklistedAt": "2025-10-12T00:00:00Z"
+  },
+  {
+    "entityId": "SOE-ZM-RAIL-004",
+    "name": "National Rail Services",
+    "entityType": "SOE",
+    "score": 395,
+    "reason": "Contract breaches and audit qualification",
+    "blacklistedAt": "2025-08-28T00:00:00Z"
+  }
+]

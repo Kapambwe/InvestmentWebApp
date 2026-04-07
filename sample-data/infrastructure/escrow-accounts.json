@@ -1,0 +1,15 @@
+[
+  {
+    "EscrowId": "ESC-001",
+    "ProjectId": "PPP-001",
+    "Currency": "ZMW",
+    "Balance": 65000000.0,
+    "Status": 1,
+    "ReleaseRules": [
+      { "RuleId": "RULE-001", "MilestoneId": "MS-001", "Amount": 1000000.0, "Condition": "Verification approved" }
+    ],
+    "Transactions": [
+      { "TransactionId": "TX-001", "Type": 0, "Amount": 5000000.0, "PostedAt": "2026-01-10T00:00:00Z", "Reference": "INV-TRANCHE-1" }
+    ]
+  }
+]

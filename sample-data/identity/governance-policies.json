@@ -1,0 +1,42 @@
+{
+  "Ministry": {
+    "entityType": "Ministry",
+    "requiredSignatures": 2,
+    "maxRolesPerDID": 5,
+    "renewalPeriodDays": 1825,
+    "emergencyFreezeAuthority": ["RegulatorAdmin", "MinistrySecretary"],
+    "roleAssignmentAuthority": ["MinistrySecretary", "PermanentSecretary"]
+  },
+  "Guarantor": {
+    "entityType": "Guarantor",
+    "requiredSignatures": 3,
+    "maxRolesPerDID": 4,
+    "renewalPeriodDays": 1095,
+    "emergencyFreezeAuthority": ["BOZ", "RegulatorAdmin"],
+    "roleAssignmentAuthority": ["BOZ", "BoardChairman"]
+  },
+  "CustodianBank": {
+    "entityType": "CustodianBank",
+    "requiredSignatures": 2,
+    "maxRolesPerDID": 6,
+    "renewalPeriodDays": 1095,
+    "emergencyFreezeAuthority": ["BOZ", "RegulatorAdmin"],
+    "roleAssignmentAuthority": ["BOZ", "BankCEO"]
+  },
+  "SPV": {
+    "entityType": "SPV",
+    "requiredSignatures": 2,
+    "maxRolesPerDID": 3,
+    "renewalPeriodDays": 730,
+    "emergencyFreezeAuthority": ["SEC-ZAMBIA", "RegulatorAdmin"],
+    "roleAssignmentAuthority": ["SEC-ZAMBIA", "SPVDirector"]
+  },
+  "SME": {
+    "entityType": "SME",
+    "requiredSignatures": 1,
+    "maxRolesPerDID": 3,
+    "renewalPeriodDays": 730,
+    "emergencyFreezeAuthority": ["PACRA", "RegulatorAdmin"],
+    "roleAssignmentAuthority": ["PACRA", "SMEOwner"]
+  }
+}

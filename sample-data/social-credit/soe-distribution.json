@@ -1,0 +1,7 @@
+[
+  { "tier": "AAA", "count": 2 },
+  { "tier": "AA", "count": 4 },
+  { "tier": "A", "count": 3 },
+  { "tier": "BBB", "count": 2 },
+  { "tier": "BB", "count": 1 }
+]

@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-01-25T10:00:00Z",
+  "summary": "Market conditions remain favorable with strong SME performance across manufacturing and agriculture sectors.",
+  "keyInsights": [
+    {
+      "category": "Market Trend",
+      "insight": "SME Growth Index has outperformed benchmark by 2.3% YTD",
+      "confidence": 0.92
+    },
+    {
+      "category": "Sector Analysis",
+      "insight": "Agriculture sector showing strong momentum due to favorable harvest conditions",
+      "confidence": 0.88
+    },
+    {
+      "category": "Risk Alert",
+      "insight": "Supply chain concentration risk elevated in Mining sector",
+      "confidence": 0.85
+    }
+  ],
+  "recommendations": [
+    {
+      "action": "Increase Agriculture ETF allocation",
+      "rationale": "Strong seasonal performance expected",
+      "riskLevel": "Low"
+    },
+    {
+      "action": "Monitor Mining sector exposure",
+      "rationale": "Supply chain disruption risk elevated",
+      "riskLevel": "Medium"
+    }
+  ],
+  "marketOutlook": "Positive",
+  "riskLevel": "Moderate"
+}

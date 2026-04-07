@@ -1,0 +1,108 @@
+[
+  {
+    "soeId": "SOE-ZM-ZESCO-001",
+    "legalName": "Zambia Electricity Supply Corporation Limited",
+    "tradingName": "ZESCO",
+    "shortName": "ZESCO",
+    "category": "Strategic",
+    "classification": "CorporatizedSOE",
+    "sector": "Energy",
+    "subSector": "Power Generation and Distribution",
+    "parentMinistry": "Ministry of Energy",
+    "supervisingAuthority": "Industrial Development Corporation",
+    "governmentOwnership": 1.0,
+    "enablingAct": "ZESCO Act Cap 137",
+    "incorporationDate": "1970-01-01",
+    "status": "FullyOperational",
+    "financialProfile": {
+      "totalAssets": 45000000000,
+      "totalRevenue": 12000000000,
+      "netIncome": 800000000,
+      "ebitda": 3500000000,
+      "totalDebt": 15000000000,
+      "equity": 20000000000,
+      "debtToEquity": 0.75,
+      "dscr": 1.45,
+      "roe": 0.04,
+      "operatingMargin": 0.29
+    },
+    "operationalProfile": {
+      "capacityUtilization": 0.78,
+      "systemLosses": 0.17,
+      "serviceCoverage": 0.31,
+      "customerSatisfaction": 0.65,
+      "employeeCount": 8500,
+      "sectorKPIs": {
+        "installedCapacityMW": 3200,
+        "peakDemandMW": 2800,
+        "generationGWh": 15000,
+        "customerCount": 850000
+      }
+    },
+    "leadership": {
+      "board": {
+        "chairman": {
+          "directorId": "DIR-001",
+          "fullName": "Dr. Emmanuel Mulenga",
+          "nrc": "123456/78/1",
+          "type": "NonExecutive",
+          "appointmentDate": "2022-01-15",
+          "qualifications": "PhD Economics, MBA Finance"
+        },
+        "totalMembers": 9,
+        "independentMembers": 4
+      },
+      "executives": {
+        "ceo": {
+          "executiveId": "EXE-001",
+          "fullName": "Victor Mapani",
+          "nrc": "234567/89/1",
+          "position": "Managing Director",
+          "role": "ChiefExecutiveOfficer",
+          "appointmentDate": "2021-06-01",
+          "yearsExperience": 25,
+          "qualifications": "MSc Electrical Engineering, MBA"
+        },
+        "cfo": {
+          "executiveId": "EXE-002",
+          "fullName": "Patricia Banda",
+          "nrc": "345678/90/1",
+          "position": "Chief Financial Officer",
+          "appointmentDate": "2020-03-15",
+          "qualifications": "ACCA, MBA Finance"
+        }
+      }
+    },
+    "socialCreditScore": {
+      "overallScore": 745,
+      "tier": "A",
+      "accessLevel": "StandardAccess"
+    }
+  },
+  {
+    "soeId": "SOE-ZM-DBZ-001",
+    "legalName": "Development Bank of Zambia",
+    "tradingName": "DBZ",
+    "shortName": "DBZ",
+    "category": "Financial",
+    "sector": "Financial Services",
+    "subSector": "Development Banking",
+    "parentMinistry": "Ministry of Finance",
+    "governmentOwnership": 1.0,
+    "status": "FullyOperational",
+    "leadership": {
+      "executives": {
+        "ceo": {
+          "fullName": "Samuel Mundia Sikaulu",
+          "position": "Managing Director",
+          "yearsExperience": 20
+        }
+      }
+    },
+    "socialCreditScore": {
+      "overallScore": 812,
+      "tier": "AA",
+      "accessLevel": "FullAccess"
+    }
+  }
+]
