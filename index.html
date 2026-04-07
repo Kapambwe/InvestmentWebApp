@@ -40,51 +40,18 @@
         <span class="dismiss">ðŸ—™</span>
     </div>
 
-    <!-- Load Blazor and Radzen scripts dynamically to respect the base path -->
-    <script>
-        (function () {
-            var baseElement = document.querySelector('base');
-            var basePath = baseElement ? baseElement.getAttribute('href') : '/';
-
-            if (basePath === '/') {
-                basePath = '';
-            } else if (basePath.endsWith('/')) {
-                basePath = basePath.slice(0, -1);
-            }
-
-            var blazorScript = document.createElement('script');
-            blazorScript.src = basePath + '/_framework/blazor.webassembly.js';
-            // autostart="false" lets us call Blazor.start() with a custom loadBootResource
-            // that explicitly requests .wasm.br files. GitHub Pages CDN returns 503 for large
-            // raw .wasm files; the brotli-compressed variants are well within the size limit,
-            // and Blazor's runtime decompresses them internally before integrity verification.
-            blazorScript.setAttribute('autostart', 'false');
-            blazorScript.onload = function () {
-                Blazor.start({
-                    loadBootResource: function (type, name, defaultUri, integrity) {
-                        if (defaultUri && defaultUri.endsWith('.wasm')) {
-                            return defaultUri + '.br';
-                        }
-                    }
-                });
-            };
-            document.body.appendChild(blazorScript);
-
-            var radzenScript = document.createElement('script');
-            radzenScript.src = basePath + '/_content/Radzen.Blazor/Radzen.Blazor.js';
-            document.body.appendChild(radzenScript);
-        })();
-    </script>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
 
     <script>
         // Restore path if redirected from 404.html (GitHub Pages SPA routing)
         (function () {
-            const params = new URLSearchParams(window.location.search);
-            const path = params.get('path');
-            if (path) {
-                var basePath = window.location.pathname.includes('/InvestmentWebApp') ? '/InvestmentWebApp' : '';
-                window.history.replaceState(null, '', basePath + decodeURIComponent(path));
-            }
+        const params = new URLSearchParams(window.location.search);
+        const path = params.get('path');
+        if (path) {
+        var basePath = window.location.pathname.includes('/InvestmentWebApp') ? '/InvestmentWebApp' : '';
+        window.history.replaceState(null, '', basePath + decodeURIComponent(path));
+        }
         })();
     </script>
 </body>
