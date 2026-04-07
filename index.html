@@ -54,12 +54,24 @@
 
             var blazorScript = document.createElement('script');
             blazorScript.src = basePath + '/_framework/blazor.webassembly.js';
-            blazorScript.defer = true;
+            // autostart="false" lets us call Blazor.start() with a custom loadBootResource
+            // that explicitly requests .wasm.br files. GitHub Pages CDN returns 503 for large
+            // raw .wasm files; the brotli-compressed variants are well within the size limit,
+            // and Blazor's runtime decompresses them internally before integrity verification.
+            blazorScript.setAttribute('autostart', 'false');
+            blazorScript.onload = function () {
+                Blazor.start({
+                    loadBootResource: function (type, name, defaultUri, integrity) {
+                        if (defaultUri && defaultUri.endsWith('.wasm')) {
+                            return defaultUri + '.br';
+                        }
+                    }
+                });
+            };
             document.body.appendChild(blazorScript);
 
             var radzenScript = document.createElement('script');
             radzenScript.src = basePath + '/_content/Radzen.Blazor/Radzen.Blazor.js';
-            radzenScript.defer = true;
             document.body.appendChild(radzenScript);
         })();
     </script>
